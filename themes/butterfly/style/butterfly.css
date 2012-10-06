@@ -115,7 +115,7 @@ a img {
 /* line 37, ../sass/butterfly.sass */
 body {
   background: #efeae1;
-  background: #efeae1 url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/floral_top.png") top left fixed no-repeat;
+  background: #efeae1 url('/images/floral_top.png?1349537240') top left fixed no-repeat;
   margin: 0;
   padding: 0;
 }
@@ -127,7 +127,7 @@ body #bottom_foral {
   z-index: 0;
   width: 187px;
   height: 298px;
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/floral_bottom.png") no-repeat top left;
+  background: url('/images/floral_bottom.png?1349537240') no-repeat top left;
 }
 
 /* line 53, ../sass/butterfly.sass */
@@ -172,7 +172,7 @@ body #bottom_foral {
 }
 /* line 87, ../sass/butterfly.sass */
 #content #navigation #navigation_ribbon_left {
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/ribbon_left.png");
+  background: url('/images/ribbon_left.png?1349537240');
   width: 94px;
   height: 75px;
   float: left;
@@ -181,7 +181,7 @@ body #bottom_foral {
 }
 /* line 95, ../sass/butterfly.sass */
 #content #navigation #navigation_ribbon_right {
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/ribbon_right.png");
+  background: url('/images/ribbon_right.png?1349537240');
   width: 94px;
   height: 66px;
   float: right;
@@ -190,7 +190,7 @@ body #bottom_foral {
 }
 /* line 103, ../sass/butterfly.sass */
 #content #navigation ul {
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/bg_navigation.png") repeat-x;
+  background: url('/images/bg_navigation.png?1349537240') repeat-x;
   height: 43px;
   padding-top: 10px;
 }
@@ -236,13 +236,13 @@ body #bottom_foral {
   right: -20px;
   width: 88px;
   height: 79px;
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/icon_butterfly.png") no-repeat;
+  background: url('/images/icon_butterfly.png?1349537240') no-repeat;
 }
 /* line 146, ../sass/butterfly.sass */
 #content .post > .post_title {
   height: 48px;
   width: 100%;
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/bg_ribbon_green.png") repeat-x;
+  background: url('/images/bg_ribbon_green.png?1349537240') repeat-x;
 }
 /* line 151, ../sass/butterfly.sass */
 #content .post > .post_title h2 {
@@ -330,7 +330,7 @@ body #bottom_foral {
   padding-left: 25px;
   padding-top: 3px;
   padding-bottom: 2px;
-  background: url("http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/icon_heart.png") no-repeat top left;
+  background: url('/images/icon_heart.png?1349537240') no-repeat top left;
   float: right;
 }
 /* line 219, ../sass/butterfly.sass */
