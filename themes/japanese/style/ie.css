@@ -1,0 +1,9 @@
+/* line 1, ../sass/ie.sass */
+#marco {
+  display: none;
+}
+
+/* line 4, ../sass/ie.sass */
+body {
+  background: #eeeeee url("../images/bg.png") no-repeat right 20px;
+}

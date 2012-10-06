@@ -1,0 +1,344 @@
+{block:tumblrThemr}
+  <link rel="stylesheet" href="http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/style/japanese.css" type="text/css" media="screen"/>
+  <!--[if IE]>
+  <link rel="stylesheet" href="http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/style/ie.css" type="text/css" media="screen"/>
+  <![endif]-->
+  <style type="text/css">{CustomCSS}</style>
+
+
+<!-- Cherry Blossum-->
+<div id="marco">
+  <div class="rama1">
+    <div class="rama2">
+      <div class="rama21">
+        <div class="rama211">
+          <div class="flor r21f4"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        </div>
+        <div class="flor r21f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r21f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r21f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      </div>
+      <div class="rama22">
+        <div class="flor r22f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r22f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r22f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r22f4"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      </div>
+      <div class="rama23">
+        <div class="flor r23f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r23f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r23f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r23f4"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      </div>
+      <div class="flor r2f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      <div class="flor r2f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      <div class="flor r2f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      <div class="flor r2f4"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      <div class="flor r2f5"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+    </div>
+    <div class="rama3">
+      <div class="rama31">
+        <div class="flor r3f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r3f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r3f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      </div>
+      <div class="flor r3f4"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      <div class="flor r3f5"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+    </div>
+    <div class="rama4">
+      <div class="rama41">
+        <div class="flor r4f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+        <div class="flor r4f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      </div>
+      <div class="flor r4f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+      <div class="flor r4f4"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+    </div>
+    <div class="rama5">
+      <div class="flor"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+    </div>
+    <div class="flor r1f1"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+    <div class="flor r1f2"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+    <div class="flor r1f3"><div class="centro"></div><div class="hoja h1"></div><div class="hoja h2"></div><div class="hoja h3"></div><div class="hoja h4"></div></div>
+  </div>
+</div>
+<!-- End of Cherry Blossum -->
+ <div id="pagewrap">
+    <div id='header'>
+      <h1>
+        <a href='/' title='Go back home'>
+          
+
+          <span>
+            <div class="author_protrait">
+              <img src="{PortraitURL-64}" />
+            </div>
+             <div class="author_description">
+                {Title}
+                {block:Description}
+                  <em>{Description}</em>
+                {/block:Description}
+            </div>
+          </span>
+        </a>
+      </h1>
+      <div class="pages" style="display: none; {block:HasPages}display: block;{/block:HasPages}{block:AskEnabled}display: block;{/block:AskEnabled}{block:SubmissionsEnabled}display: block;{/block:SubmissionsEnabled}">
+        <a href='/'>{lang:Home}</a> 
+        {block:AskEnabled}<a href="/ask">{AskLabel}</a>{/block:AskEnabled}
+        {block:SubmissionsEnabled}<a href="/submit">{SubmitLabel}</a>{/block:SubmissionsEnabled}
+        {block:HasPages}
+          {block:Pages}<a href="{URL}">{Label}</a>{/block:Pages}
+        {/block:HasPages}
+      </div>
+      
+    </div>
+    {block:Posts}
+      {block:Text}
+      <div class='post text'>
+        <div class='content'>
+          <div class='wrapper'>
+            {block:Title}
+            <h2><a href='{Permalink}' title='{lang:Permalink}'>{Title}</a></h2>
+            <div class='hr'>
+              <hr />
+            </div>
+            {/block:Title}
+            <div class='description'>{Body}</div>
+          </div>
+        </div>
+        <div class='permalink'>
+          <div class='wrapper'>
+            <p>
+              <a href='{Permalink}' title='{lang:Permalink}'><span>Complete</span> <span class='right'>Unabridged</span></a>
+            </p>
+                  {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+                  {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+          </div>
+        </div>
+      </div>
+      {/block:Text}
+
+       {block:Quote}
+    <div class='post quote'>
+      <div class='content'>
+        <div class='wrapper'>
+          <blockquote class='{Length}'>
+            &ldquo;{Quote}&rdquo;
+          </blockquote>
+          {block:Source}
+          <div class='hr'>
+            <hr />
+          </div>
+          <div class='source'>
+            {Source}
+          </div>
+          {/block:Source}
+        </div>
+      </div>
+      <div class='permalink'>
+        <div class='wrapper'>
+          <p>
+            <a href='{Permalink}' title='{lang:Permalink}'><span>Notable</span> <span class='right'>Quotable</span></a>
+          </p>
+                {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+                {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+        </div>
+      </div>
+    </div>
+    {/block:Quote}
+    {block:Photo}
+    <div class='post photo'>
+      <div class='content'>
+        <div class='wrapper'>
+          {block:Title}
+          <h2><a href='{Permalink}' title='{lang:Permalink}'>{Title}</a></h2>
+          <div class='hr'>
+            <hr />
+          </div>
+          {/block:Title}
+          {LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{LinkCloseTag}
+          {block:Caption}
+          <div class='description'>{Caption}</div>
+          {/block:Caption}
+        </div>
+      </div>
+      <div class='permalink'>
+        <div class='wrapper'>
+          <p>
+            <a href='{Permalink}' title='{lang:Permalink}'><span>Photographed</span> <span class='right'>Illustrated</span></a>
+          </p>
+              {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+              {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+        </div>
+      </div>
+    </div>
+    {/block:Photo}
+
+        {block:Video}
+    <div class='post video'>
+      <div class='content'>
+        <div class='wrapper'>
+          {block:Title}
+          <h2><a href='{Permalink}' title='{lang:Permalink}'>{Title}</a></h2>
+          <div class='hr'>
+            <hr />
+          </div>
+          {/block:Title}
+          <div class="post-video">{Video-500}</div>
+          {block:Caption}
+          <div class='description'>{Caption}</div>
+          {/block:Caption}
+        </div>
+      </div>
+      <div class='permalink'>
+        <div class='wrapper'>
+          <p>
+            <a href='{Permalink}' title='{lang:Permalink}'><span>Filmed</span> <span class='right'>Animated</span></a>
+          </p>
+                {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+                {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+        </div>
+      </div>
+    </div>
+    {/block:Video}
+    {block:Chat}
+    <div class='post conversation'>
+      <div class='content'>
+        <div class='wrapper'>
+          {block:Title}
+          <h2><a href='{Permalink}' title='{lang:Permalink}'>{Title}</a></h2>
+          <div class='hr'>
+            <hr />
+          </div>
+          {/block:Title}
+          <ul>
+            {block:Lines}
+                <li class="{Alt} user_{UserNumber}">
+                    {block:Label}
+                        <span class="label">{Label}</span>
+                    {/block:Label}
+
+                    {Line}
+                </li>
+            {/block:Lines}
+          </ul>
+        </div>
+        
+      </div>
+      <div class='permalink'>
+          <div class='wrapper'>
+            <p>
+              <a href='{Permalink}' title='{lang:Permalink}'><span>Overheard</span> <span class='right'>Overheard</span></a>
+            </p>
+                  {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+                  {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+          </div>
+        </div>
+    </div>
+    {/block:Chat}
+    {block:Audio}
+    <div class='post audio'>
+      <div class='content'>
+        <div class='wrapper'>
+          {block:Title}
+          <h2><a href='{Permalink}' title='{lang:Permalink}'>{Title}</a></h2>
+          <div class='hr'>
+            <hr />
+          </div>
+          {/block:Title}
+          <div class='audio_player'>
+            {AudioPlayerWhite}
+          </div>
+          {block:Caption}
+          <div class='hr'>
+            <hr />
+          </div>
+          <div class='description'>{Caption}</div>
+          {/block:Caption}
+        </div>
+       
+      </div>
+       <div class='permalink'>
+          <div class='wrapper'>
+            <p>
+              <a href='{Permalink}' title='{lang:Permalink}'><span>Recorded</span> <span class='right'>In Stereo</span></a>
+            </p>
+                  {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+                  {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+          </div>
+        </div>
+    </div>
+    {/block:Audio}
+    {block:Link}
+    <div class='post link'>
+      <div class='content'>
+        <div class='wrapper'>
+          <h2>
+            <a href="{URL}" {Target}>{Name}</a>
+          </h2>
+          {block:Description}
+          <div class='hr'>
+            <hr />
+          </div>
+          <div class='description'>{Description}</div>
+          {/block:Description}
+        </div>
+      </div>
+      <div class='permalink'>
+        <div class='wrapper'>
+          <p>
+            <a href='{Permalink}' title='{lang:Permalink}'><span>External</span> <span class='right'>Content</span></a>
+          </p>
+               {block:Date}<a href="{Permalink}#disqus_thread" class="comments"></a>{/block:Date}
+              {block:NoteCount}<a href="{Permalink}" class="notes">{NoteCountWithLabel}</a>{/block:NoteCount}
+        </div>
+      </div>
+    </div>
+    {/block:Link}
+
+    {block:Permalink}
+    <div class="post">
+      <div class="wrapper">
+          {PostNotes}
+      </div>
+    </div>
+    
+
+
+
+    {/block:Permalink}
+    {/block:Posts}
+        <div id='footer'>
+      <div class='wrapper'>
+        {block:Pagination}
+        <ul>
+          <li class='older'>
+          {block:NextPage}
+            <a href="{NextPage}">&larr; {lang:Older}</a>
+          {/block:NextPage}
+          </li>
+          <li class='page'>{CurrentPage}/{TotalPages}</li>
+          <li class='newer'>
+          {block:PreviousPage}
+            <a href="{PreviousPage}">{lang:Newer}&rarr;</a>
+          {/block:PreviousPage}
+          </li>
+        </ul>
+        {/block:Pagination}
+       
+      </div>
+    </div>
+
+  </div>
+    <ul class="japanese-saying">
+      <li><img src='http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/19971.gif' /></li>
+      <li><img src='http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/36578.gif' /></li>
+      <li><img src='http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/20843.gif' /></li>
+      <li><img src='http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/36215.gif' /></li>
+    </ul>
+
+
+
+  <script type="text/javascript" src="http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/script/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/script/japanese.js"></script>
+
+{/block:tumblrThemr}

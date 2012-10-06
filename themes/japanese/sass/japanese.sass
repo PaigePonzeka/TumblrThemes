@@ -1,0 +1,445 @@
+@import "compass/css3/images"
+@import "reset"
+@import "cherryblossum"
+
+/* Colors */
+$pale-pink: #F0A6c7 
+$dark-pink: #b9334c
+$pale-green: #F7FDAF
+$pale-yellow: #9abc34
+$orange: #c56c36
+$blue: #2c5082
+$green: #4fa82e
+$teal: #237f61
+$pink: #BA3348
+$width: 650px
+
+
+$text-color: $orange
+$photo-color: $teal
+$quote-color: $blue
+$link-color: $green
+$chat-color: $blue
+$audio-color: $pink
+$video-color: $pink
+
+
+$permalink-icon: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat
+
+$wrapper-bg: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png)
+
+@mixin set-border($color)
+  border-color: lighten($color, 5)
+
+body
+  font: normal 0.875em / 1.4 Palatino, Georgia, "Times New Roman", serif
+  line-height: 1.4
+  background: #eee
+
+
+h1, h2, h3, h4, h5, .post.quote blockquote, .permalink p, .source, #footer
+  font-family: "GillSans", "Gill Sans", Helvetica
+  letter-spacing: 0.14em
+  margin: 0 15px 0.8em
+  text-align: center
+  text-shadow: #fff 0 0 0
+  text-transform: uppercase
+
+h2
+  font-size: 1.28em
+  line-height: 1.33
+  padding: 0
+  a
+    color: #242424
+    text-decoration: none
+    &:hover
+      color: $orange
+
+#rightbar
+  float: left
+  margin-top: 150px
+  margin-left: 695px
+  font-family: "GillSans", "Gill Sans", Helvetica
+  position: absolute
+
+p
+  padding: 0.5em 0 0.5em
+
+.hr
+  border-bottom: 1px #9d9f9a solid
+  margin: 0 auto 1em
+  width: 140px
+  hr
+    display: none
+
+
+.japanese-saying
+  position: fixed
+  right: 0 
+  bottom: 0
+
+#header
+  h1
+    background: transparent
+    margin: 0 auto
+    width: 650px
+    a
+      color: #111
+      display: block
+      height: 200px
+      text-decoration: none
+      &:hover
+        color: #666
+      span
+        display: table-cell
+        height: 200px
+        vertical-align: middle
+        width: $width
+      em
+        display: block
+        font-size: 0.8em
+        font-style: normal
+
+.pages
+  text-align: center
+  line-height: 1.8
+  background: $dark-pink
+  padding: 15px 35px
+  a
+    color: #444
+    font-size: 9px
+    font-family: "GillSans", "Gill Sans", Helvetica
+    letter-spacing: 0.14em
+    text-transform: uppercase
+    text-decoration: none
+    background: #fff
+    border: 2px solid #444
+    border-radius: 7px
+    -webkit-border-radius: 7px
+    -moz-border-radius: 7px
+    padding: 3px 7px
+    display: inline-block
+
+    &:hover
+      @include background-image(linear-gradient(white, #aaaaaa))
+
+
+#footer
+  background: $pale-pink
+  margin: 0
+  color: #eee
+  border-top: 6px solid  $pale-pink
+  .wrapper
+    background: $dark-pink
+    margin: 0 auto 0
+    overflow: hidden
+    padding: 10px 0 20px
+    width: 620px
+    zoom: 1
+  ul li
+    float: left
+    padding-top: 2.6em
+    width: 220px
+    &.page
+      font-size: 4.4em
+      padding-top: 0
+      width: 180px
+      text-shadow: #222 0 2px 2px
+    &.newer
+      text-align: left
+    &.older
+      text-align: right
+  p
+    clear: both
+    text-align: center
+    font-size: 11px
+  a
+    color: #eee
+    text-decoration: none
+    text-shadow: #555 0 1px 1px
+    &:hover
+      color: #fff
+      text-shadow: 0.01em 0.01em 1em #FFFFFF
+
+.post
+  background: transparent
+  border-top: 6px $dark-pink solid
+  .wrapper
+    background: transparent
+    margin: 0 auto
+    padding: 1.2em 15px
+    width: $width - 60px
+  .permalink
+    background: $orange
+    .wrapper
+      background: $orange $wrapper-bg
+      padding: 0 15px
+      position: relative
+    p
+      font-size: 0.7em
+      margin: 0
+      overflow: hidden
+      text-align: right
+      padding: 1em 0
+      a
+        border: 0
+        background: $permalink-icon
+        color: #eee !important
+        display: block
+        text-decoration: none
+        overflow: hidden
+        text-shadow: #555 0 1px 1px
+        zoom: 1
+        &:hover
+          color: #fff !important
+          text-shadow: 0.01em 0.01em 1em #FFFFFF
+        span
+          display: block
+          float: left
+          padding: 20px 35px 20px 0
+          width: 260px
+        .right
+          padding: 20px 0 20px 35px
+          text-align: left
+    .wrapper
+      padding-bottom: 0
+  img, object, embed
+    border: 1px #d0cdce solid
+    padding: 4px
+  a:hover img
+    background: #fff
+    border-color: #398c81
+  .description
+    padding: 10px
+    margin-top: 10px
+    background: #eee
+
+.poss .description p:first-child
+  margin-top: 0
+
+.post
+  .content
+    border-left: 15px solid $pale-pink
+    border-right: 15px solid $pale-pink
+  p a, li a, .description a
+    border-bottom: 1px #c8c8ad solid
+    color: #bc3d0e
+    text-decoration: none
+  p a:hover, li a:hover, .description a:hover
+    color: #000 !important
+  blockquote
+    border-left: 1px #9d9f9a dotted
+    margin: 0 15px 0.5em
+    padding: 0 0 0 10px
+    p
+      margin-top: 0.5em
+      margin-bottom: 0.5em
+      padding: 0
+  ul
+    list-style: disc
+    margin-right: 16px
+    margin-left: 16px
+  ol
+    margin-right: 16px
+    margin-left: 20px
+ 
+  &.quote
+    +set-border($quote-color)
+    background: #eee
+    blockquote
+      border: 0
+      font-size: 2em
+      line-height: 1.2
+      padding: 0
+      &.short
+        font-size: 2em
+      &.medium
+        font-size: 1.7em
+      &.long
+        font-size: 1.4em
+      p
+        padding-bottom: 0
+    p a, li a, .source a
+      color: #005a9e
+    .permalink
+      background: $quote-color
+      .wrapper
+        background-color: $quote-color
+        background-image: $wrapper-bg
+      p a
+        background: $permalink-icon
+  
+  &.text
+    background: #eee
+
+  &.photo
+    +set-border($photo-color)
+    text-align: center
+    h2 a:hover, p a, li a, .description a
+      color: #036f5d
+    .permalink
+      background: $photo-color 
+      .wrapper
+        background-color: $photo-color
+        background-image: $wrapper-bg
+      p a
+        background: $permalink-icon
+  
+  &.video
+    +set-border($video-color)
+    h2 a:hover, p a, li a, .description a
+      color: #cd2855
+    .permalink
+      background: $video-color
+      .wrapper
+        background-image: $wrapper-bg
+        background-color: $video-color
+      p a
+        background: $permalink-icon
+    .post-video
+      width: 500px
+      margin: 0 auto
+  
+  &.link
+    +set-border($link-color)
+    background: #eee
+    h2 a:hover, p a, li a, .description a
+      color: #a40e12
+    .permalink
+      background: $link-color
+      .wrapper
+        background-image: $wrapper-bg
+        background-color: $link-color
+      p a
+        background: $permalink-icon
+  
+  &.conversation
+    +set-border($chat-color)
+    background: #eee
+    h2 a:hover, p a, li a, .description a
+      color: #d5be16
+    .permalink
+      background: $chat-color 
+      .wrapper
+        background-image: $wrapper-bg
+        background-color: $chat-color
+      p a
+        background: $permalink-icon
+    ul
+      list-style: none
+      margin-left: 0
+      li
+        padding: 5px 8px 4px
+        span
+          color: #444
+        &.user_1
+          background: $pale-yellow
+          border-left: 1px #cfcfaf dotted
+        &.user_2
+          background: transparent
+          border-left: 0
+        &.user_3
+          background: $pale-green
+          border-left: 1px #c3c3ab dotted
+  &.audio
+    +set-border($audio-color)
+    h2 a:hover, p a, li a, .description a
+      color: #006e9d
+    .permalink
+      background: $audio-color
+      .wrapper
+        background-image: $wrapper-bg
+        background-color: $audio-color
+      p a
+        background: $permalink-icon
+    .audio_player
+      margin: 10px auto
+      text-align: center
+
+.source
+  margin: 0 80px
+
+#pagewrap
+  width: $width
+  float: left
+  position: absolute
+  z-index: 100
+  margin: 0
+
+.text img
+  max-width: 100%
+
+.post .permalink .wrapper a
+  &.comments
+    color: #444
+    font-size: 9px
+    font-family: "GillSans", "Gill Sans", Helvetica
+    letter-spacing: 0.14em
+    text-transform: uppercase
+    text-decoration: none
+    background: #fff
+    border: 2px solid #444
+    border-radius: 7px
+    -webkit-border-radius: 7px
+    -moz-border-radius: 7px
+    padding: 2px 7px
+    position: absolute
+    top: 27px
+    right: 30px
+  &.notes
+    color: #444
+    font-size: 9px
+    font-family: "GillSans", "Gill Sans", Helvetica
+    letter-spacing: 0.14em
+    text-transform: uppercase
+    text-decoration: none
+    background: #fff
+    border: 2px solid #444
+    border-radius: 7px
+    -webkit-border-radius: 7px
+    -moz-border-radius: 7px
+    padding: 2px 7px
+    position: absolute
+    top: 27px
+    left: 30px
+
+ol.notes
+  color: #444
+  font-size: 9px
+  font-family: "GillSans", "Gill Sans", Helvetica
+  letter-spacing: 0.14em
+  text-transform: uppercase
+  padding: 0
+  margin: 0 5px
+  list-style-type: none
+  clear: both
+  a img.avatar
+    max-width: 16px
+    border-width: 0px
+    margin: 2px 8px 0 0
+    padding: 0
+    float: left
+  span.action
+    float: left
+    padding-top: 1px
+    line-height: 18px
+  .clear
+    clear: both
+    height: 1px
+  blockquote
+    padding: 4px 10px
+    margin: 7px 0px 0px 25px
+    font-weight: normal
+    a
+      text-decoration: none
+  .answer_content
+    font-weight: normal
+
+#disqus_thread
+  font-size: 0.5em
+  text-align: left !important
+  padding: 0 5px
+  a
+    color: #444
+    text-align: left !important
+

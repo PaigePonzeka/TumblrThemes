@@ -1,0 +1,2295 @@
+/* line 1, ../sass/reset.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 12, ../sass/reset.sass */
+*:focus {
+  outline: 0;
+}
+
+/* line 15, ../sass/reset.sass */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 20, ../sass/reset.sass */
+ul {
+  list-style: none;
+}
+
+/* line 23, ../sass/reset.sass */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 27, ../sass/reset.sass */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 32, ../sass/reset.sass */
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 36, ../sass/reset.sass */
+q:before, q:after {
+  content: "";
+}
+
+/* line 39, ../sass/reset.sass */
+blockquote, q {
+  quotes: "" "";
+}
+
+@-moz-keyframes fade {
+  /* line 3, ../sass/_cherryblossum.sass */
+  from {
+    opacity: 0;
+  }
+
+  /* line 5, ../sass/_cherryblossum.sass */
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeb {
+  /* line 10, ../sass/_cherryblossum.sass */
+  from {
+    opacity: 0;
+  }
+
+  /* line 12, ../sass/_cherryblossum.sass */
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  /* line 17, ../sass/_cherryblossum.sass */
+  from {
+    opacity: 0;
+  }
+
+  /* line 19, ../sass/_cherryblossum.sass */
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeb {
+  /* line 24, ../sass/_cherryblossum.sass */
+  from {
+    opacity: 0;
+  }
+
+  /* line 26, ../sass/_cherryblossum.sass */
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 29, ../sass/_cherryblossum.sass */
+#marco {
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  position: fixed;
+  right: 0;
+  overflow: hidden;
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  /*flores */
+  /* Ramas */
+  /*Media Qs */
+}
+/* line 41, ../sass/_cherryblossum.sass */
+#marco .flor div {
+  position: absolute;
+}
+/* line 44, ../sass/_cherryblossum.sass */
+#marco .flor {
+  position: absolute;
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 51, ../sass/_cherryblossum.sass */
+#marco .centro {
+  background: -moz-radial-gradient(center, ellipse cover, #ffffcc 0%, #f5d1d3 30%, #ffffcc 80%);
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffcc 0%, #f5d1d3 30%, #ffffcc 80%);
+  background: -o-linear-gradient(-45deg, #f5d1d3 40%, #ffffcc 90%);
+  background: radial-gradient(center, ellipse cover, #ffffcc 0%, #f5d1d3 30%, #ffffcc 80%);
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  top: 50%;
+  left: 50%;
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  z-index: 10;
+  width: 26%;
+  height: 26%;
+  margin: -13% 0 0 -13%;
+}
+/* line 71, ../sass/_cherryblossum.sass */
+#marco .hoja {
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+  width: 50%;
+  height: 50%;
+}
+/* line 79, ../sass/_cherryblossum.sass */
+#marco .h1 {
+  background: -moz-linear-gradient(-45deg, #f0a6c7 40%, #b9334c 90%);
+  background: -webkit-linear-gradient(-45deg, #f0a6c7 40%, #b9334c 90%);
+  background: -o-linear-gradient(-45deg, #f0a6c7 40%, #b9334c 90%);
+  background: linear-gradient(-45deg, #f0a6c7 40%, #b9334c 90%);
+  -moz-border-radius: 20px 10px 0 10px;
+  -webkit-border-radius: 20px 10px 0 10px;
+  -o-border-radius: 20px 10px 0 10px;
+  border-radius: 20px 10px 0 10px;
+  top: 0;
+  left: 0;
+}
+/* line 91, ../sass/_cherryblossum.sass */
+#marco .h2 {
+  background: -moz-linear-gradient(-135deg, #f0a6c7 40%, #b9334c 90%);
+  background: -webkit-linear-gradient(-135deg, #f0a6c7 40%, #b9334c 90%);
+  background: -o-linear-gradient(-135deg, #f0a6c7 40%, #b9334c 90%);
+  background: linear-gradient(-135deg, #f0a6c7 40%, #b9334c 90%);
+  -moz-border-radius: 10px 20px 10px 0px;
+  -webkit-border-radius: 10px 20px 10px 0px;
+  -o-border-radius: 10px 20px 10px 0px;
+  border-radius: 10px 20px 10px 0px;
+  top: 0;
+  right: 0;
+}
+/* line 103, ../sass/_cherryblossum.sass */
+#marco .h3 {
+  background: -moz-linear-gradient(45deg, #f0a6c7 40%, #b9334c 90%);
+  background: -webkit-linear-gradient(45deg, #f0a6c7 40%, #b9334c 90%);
+  background: -o-linear-gradient(45deg, #f0a6c7 40%, #b9334c 90%);
+  background: linear-gradient(45deg, #f0a6c7 40%, #b9334c 90%);
+  -moz-border-radius: 10px 0px 10px 20px;
+  -webkit-border-radius: 10px 0px 10px 20px;
+  -o-border-radius: 10px 0px 10px 20px;
+  border-radius: 10px 0px 10px 20px;
+  bottom: 0px;
+  left: 0px;
+}
+/* line 115, ../sass/_cherryblossum.sass */
+#marco .h4 {
+  background: -moz-linear-gradient(135deg, #f0a6c7 40%, #b9334c 90%);
+  background: -webkit-linear-gradient(135deg, #f0a6c7 40%, #b9334c 90%);
+  background: -o-linear-gradient(135deg, #f0a6c7 40%, #b9334c 90%);
+  background: linear-gradient(135deg, #f0a6c7 40%, #b9334c 90%);
+  -moz-border-radius: 0px 10px 20px 10px;
+  -webkit-border-radius: 0px 10px 20px 10px;
+  -o-border-radius: 0px 10px 20px 10px;
+  border-radius: 0px 10px 20px 10px;
+  bottom: 0px;
+  right: 0px;
+}
+/* line 129, ../sass/_cherryblossum.sass */
+#marco .r1f1 {
+  width: 32px;
+  height: 32px;
+  right: 157px;
+  top: 44px;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-border-transform: rotate(10deg);
+  border-transform: rotate(10deg);
+}
+/* line 139, ../sass/_cherryblossum.sass */
+#marco .r1f2 {
+  width: 42px;
+  height: 42px;
+  right: 265px;
+  top: 188px;
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -o-border-transform: rotate(30deg);
+  border-transform: rotate(30deg);
+}
+/* line 149, ../sass/_cherryblossum.sass */
+#marco .r1f3 {
+  width: 65px;
+  height: 65px;
+  right: 255px;
+  top: 112px;
+  -moz-transform: rotate(110deg);
+  -webkit-transform: rotate(110deg);
+  -o-border-transform: rotate(110deg);
+  border-transform: rotate(110deg);
+}
+/* line 159, ../sass/_cherryblossum.sass */
+#marco .r2f1 {
+  width: 40px;
+  height: 40px;
+  right: 100px;
+  top: 238px;
+  -moz-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -o-border-transform: rotate(20deg);
+  border-transform: rotate(20deg);
+}
+/* line 169, ../sass/_cherryblossum.sass */
+#marco .r2f2 {
+  width: 65px;
+  height: 65px;
+  right: 130px;
+  top: 247px;
+  -moz-transform: rotate(61deg);
+  -webkit-transform: rotate(61deg);
+  -o-border-transform: rotate(61deg);
+  border-transform: rotate(61deg);
+}
+/* line 179, ../sass/_cherryblossum.sass */
+#marco .r2f3 {
+  width: 25px;
+  height: 25px;
+  right: 70px;
+  top: 217px;
+  -moz-transform: rotate(160deg);
+  -webkit-transform: rotate(160deg);
+  -o-border-transform: rotate(160deg);
+  border-transform: rotate(160deg);
+}
+/* line 189, ../sass/_cherryblossum.sass */
+#marco .r2f4 {
+  width: 50px;
+  height: 50px;
+  right: -13px;
+  top: 90px;
+  -moz-transform: rotate(11deg);
+  -webkit-transform: rotate(11deg);
+  -o-border-transform: rotate(11deg);
+  border-transform: rotate(11deg);
+}
+/* line 199, ../sass/_cherryblossum.sass */
+#marco .r2f5 {
+  width: 68px;
+  height: 68px;
+  right: 16px;
+  top: 121px;
+  -moz-transform: rotate(168deg);
+  -webkit-transform: rotate(168deg);
+  -o-border-transform: rotate(168deg);
+  border-transform: rotate(168deg);
+}
+/* line 209, ../sass/_cherryblossum.sass */
+#marco .r21f1 {
+  width: 55px;
+  height: 55px;
+  right: 140px;
+  top: 66px;
+  -moz-transform: rotate(77deg);
+  -webkit-transform: rotate(77deg);
+  -o-border-transform: rotate(77deg);
+  border-transform: rotate(77deg);
+}
+/* line 219, ../sass/_cherryblossum.sass */
+#marco .r21f2 {
+  width: 30px;
+  height: 30px;
+  right: 180px;
+  top: 137px;
+  -moz-transform: rotate(61deg);
+  -webkit-transform: rotate(61deg);
+  -o-border-transform: rotate(61deg);
+  border-transform: rotate(61deg);
+}
+/* line 229, ../sass/_cherryblossum.sass */
+#marco .r21f3 {
+  width: 20px;
+  height: 20px;
+  right: 188px;
+  top: 175px;
+  -moz-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -o-border-transform: rotate(20deg);
+  border-transform: rotate(20deg);
+}
+/* line 239, ../sass/_cherryblossum.sass */
+#marco .r21f4 {
+  width: 35px;
+  height: 35px;
+  right: 3px;
+  top: 30px;
+  -moz-transform: rotate(70deg);
+  -webkit-transform: rotate(70deg);
+  -o-border-transform: rotate(70deg);
+  border-transform: rotate(70deg);
+}
+/* line 249, ../sass/_cherryblossum.sass */
+#marco .r22f1 {
+  width: 55px;
+  height: 55px;
+  right: -23px;
+  top: 24px;
+  -moz-transform: rotate(46deg);
+  -webkit-transform: rotate(46deg);
+  -o-border-transform: rotate(46deg);
+  border-transform: rotate(46deg);
+}
+/* line 259, ../sass/_cherryblossum.sass */
+#marco .r22f2 {
+  width: 35px;
+  height: 35px;
+  right: 16px;
+  top: 77px;
+  -moz-transform: rotate(22deg);
+  -webkit-transform: rotate(22deg);
+  -o-border-transform: rotate(22deg);
+  border-transform: rotate(22deg);
+}
+/* line 269, ../sass/_cherryblossum.sass */
+#marco .r22f3 {
+  width: 40px;
+  height: 40px;
+  right: 90px;
+  top: 124px;
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -o-border-transform: rotate(0deg);
+  border-transform: rotate(0deg);
+}
+/* line 279, ../sass/_cherryblossum.sass */
+#marco .r22f4 {
+  width: 20px;
+  height: 20px;
+  right: 136px;
+  top: 138px;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-border-transform: rotate(10deg);
+  border-transform: rotate(10deg);
+}
+/* line 289, ../sass/_cherryblossum.sass */
+#marco .r23f1 {
+  width: 25px;
+  height: 25px;
+  right: 19px;
+  top: -15px;
+  -moz-transform: rotate(46deg);
+  -webkit-transform: rotate(46deg);
+  -o-border-transform: rotate(46deg);
+  border-transform: rotate(46deg);
+}
+/* line 299, ../sass/_cherryblossum.sass */
+#marco .r23f2 {
+  width: 45px;
+  height: 45px;
+  right: 44px;
+  top: 0px;
+  -moz-transform: rotate(22deg);
+  -webkit-transform: rotate(22deg);
+  -o-border-transform: rotate(22deg);
+  border-transform: rotate(22deg);
+}
+/* line 309, ../sass/_cherryblossum.sass */
+#marco .r23f3 {
+  width: 50px;
+  height: 50px;
+  right: 76px;
+  top: 45px;
+  -moz-transform: rotate(72deg);
+  -webkit-transform: rotate(72deg);
+  -o-border-transform: rotate(72deg);
+  border-transform: rotate(72deg);
+}
+/* line 319, ../sass/_cherryblossum.sass */
+#marco .r23f4 {
+  width: 25px;
+  height: 25px;
+  right: 91px;
+  top: 104px;
+  -moz-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  -o-border-transform: rotate(40deg);
+  border-transform: rotate(40deg);
+}
+/* line 329, ../sass/_cherryblossum.sass */
+#marco .r3f1 {
+  width: 36px;
+  height: 36px;
+  right: -1px;
+  top: -31px;
+  -moz-transform: rotate(115deg);
+  -webkit-transform: rotate(115deg);
+  -o-border-transform: rotate(115deg);
+  border-transform: rotate(115deg);
+}
+/* line 339, ../sass/_cherryblossum.sass */
+#marco .r3f2 {
+  width: 56px;
+  height: 56px;
+  right: 29px;
+  top: -25px;
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -o-border-transform: rotate(5deg);
+  border-transform: rotate(5deg);
+}
+/* line 349, ../sass/_cherryblossum.sass */
+#marco .r3f3 {
+  width: 20px;
+  height: 20px;
+  right: 84px;
+  top: 27px;
+  -moz-transform: rotate(110deg);
+  -webkit-transform: rotate(110deg);
+  -o-border-transform: rotate(110deg);
+  border-transform: rotate(110deg);
+}
+/* line 359, ../sass/_cherryblossum.sass */
+#marco .r3f4 {
+  width: 43px;
+  height: 43px;
+  right: 115px;
+  top: 60px;
+  -moz-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-border-transform: rotate(15deg);
+  border-transform: rotate(15deg);
+}
+/* line 369, ../sass/_cherryblossum.sass */
+#marco .r3f5 {
+  width: 60px;
+  height: 60px;
+  right: 113px;
+  top: 103px;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-border-transform: rotate(45deg);
+  border-transform: rotate(45deg);
+}
+/* line 379, ../sass/_cherryblossum.sass */
+#marco .r4f1 {
+  width: 20px;
+  height: 20px;
+  right: 49px;
+  top: 72px;
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -o-border-transform: rotate(5deg);
+  border-transform: rotate(5deg);
+}
+/* line 389, ../sass/_cherryblossum.sass */
+#marco .r4f2 {
+  width: 46px;
+  height: 46px;
+  right: 9px;
+  top: 48px;
+  -moz-transform: rotate(78deg);
+  -webkit-transform: rotate(78deg);
+  -o-border-transform: rotate(78deg);
+  border-transform: rotate(78deg);
+}
+/* line 399, ../sass/_cherryblossum.sass */
+#marco .r4f3 {
+  width: 35px;
+  height: 35px;
+  right: -13px;
+  top: 58px;
+  -moz-transform: rotate(80deg);
+  -webkit-transform: rotate(80deg);
+  -o-border-transform: rotate(80deg);
+  border-transform: rotate(80deg);
+}
+/* line 409, ../sass/_cherryblossum.sass */
+#marco .r4f4 {
+  width: 55px;
+  height: 55px;
+  right: 5px;
+  top: 83px;
+  -moz-transform: rotate(44deg);
+  -webkit-transform: rotate(44deg);
+  -o-border-transform: rotate(44deg);
+  border-transform: rotate(44deg);
+}
+/* line 421, ../sass/_cherryblossum.sass */
+#marco .rama5 .flor {
+  width: 50px;
+  height: 50px;
+  right: 16px;
+  top: 16px;
+  -moz-transform: rotate(70deg);
+  -webkit-transform: rotate(70deg);
+  -o-border-transform: rotate(70deg);
+  border-transform: rotate(70deg);
+}
+/* line 431, ../sass/_cherryblossum.sass */
+#marco .rama1 {
+  border: 30px solid #2b0d0d;
+  border-width: 20px 0 0 10px;
+  -moz-border-radius: 400px 0px 0px 0px;
+  -webkit-border-radius: 400px 0px 0px 0px;
+  -o-border-radius: 400px 0px 0px 0px;
+  border-radius: 400px 0px 0px 0px;
+  right: -100px;
+  top: 0px;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 448, ../sass/_cherryblossum.sass */
+#marco .rama2 {
+  border: 30px solid #2b0d0d;
+  border-width: 0px 12px 7px 0px;
+  -moz-border-radius: 0px 0px 300px 0px;
+  -webkit-border-radius: 0px 0px 300px 0px;
+  -o-border-radius: 0px 0px 300px 0px;
+  border-radius: 0px 0px 300px 0px;
+  right: 326px;
+  top: 21px;
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  -moz-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 469, ../sass/_cherryblossum.sass */
+#marco .rama21 {
+  border: 30px solid #2b0d0d;
+  border-width: 10px 0px 0px 2px;
+  -moz-border-radius: 300px 0px 0px 0px;
+  -webkit-border-radius: 300px 0px 0px 0px;
+  -o-border-radius: 300px 0px 0px 0px;
+  border-radius: 300px 0px 0px 0px;
+  right: -98px;
+  top: 166px;
+  width: 200px;
+  height: 220px;
+  position: absolute;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 490, ../sass/_cherryblossum.sass */
+#marco .rama211 {
+  border: 30px solid #2b0d0d;
+  border-width: 0px 5px 3px 0px;
+  -moz-border-radius: 0px 0px 200px 0px;
+  -webkit-border-radius: 0px 0px 200px 0px;
+  -o-border-radius: 0px 0px 200px 0px;
+  border-radius: 0px 0px 200px 0px;
+  right: 196px;
+  top: 65px;
+  width: 90px;
+  height: 80px;
+  position: absolute;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 511, ../sass/_cherryblossum.sass */
+#marco .rama22 {
+  border: 30px solid #2b0d0d;
+  border-width: 0px 8px 2px 0px;
+  -moz-border-radius: 0px 0px 200px 0px;
+  -webkit-border-radius: 0px 0px 200px 0px;
+  -o-border-radius: 0px 0px 200px 0px;
+  border-radius: 0px 0px 200px 0px;
+  right: 172px;
+  top: 312px;
+  width: 180px;
+  height: 150px;
+  position: absolute;
+  -moz-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 532, ../sass/_cherryblossum.sass */
+#marco .rama23 {
+  border: 30px solid #2b0d0d;
+  border-width: 4px 0px 0px 2px;
+  -moz-border-radius: 200px 0px 0px 0px;
+  -webkit-border-radius: 200px 0px 0px 0px;
+  -o-border-radius: 200px 0px 0px 0px;
+  border-radius: 200px 0px 0px 0px;
+  right: 245px;
+  top: 261px;
+  width: 100px;
+  height: 140px;
+  position: absolute;
+  -moz-transform: rotate(34deg);
+  -webkit-transform: rotate(34deg);
+  -o-transform: rotate(34deg);
+  transform: rotate(34deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 553, ../sass/_cherryblossum.sass */
+#marco .rama3 {
+  border: 30px solid #2b0d0d;
+  border-width: 10px 0px 0px 4px;
+  -moz-border-radius: 300px 0px 0px 0px;
+  -webkit-border-radius: 300px 0px 0px 0px;
+  -o-border-radius: 300px 0px 0px 0px;
+  border-radius: 300px 0px 0px 0px;
+  right: 315px;
+  top: 84px;
+  width: 150px;
+  height: 180px;
+  position: absolute;
+  -moz-transform: rotate(38deg);
+  -webkit-transform: rotate(38deg);
+  -o-transform: rotate(38deg);
+  transform: rotate(38deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 574, ../sass/_cherryblossum.sass */
+#marco .rama31 {
+  border: 30px solid #2b0d0d;
+  border-width: 5px 0px 0px 3px;
+  -moz-border-radius: 200px 0px 0px 0px;
+  -webkit-border-radius: 200px 0px 0px 0px;
+  -o-border-radius: 200px 0px 0px 0px;
+  border-radius: 200px 0px 0px 0px;
+  right: 113px;
+  top: 20px;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  -moz-transform: rotate(11deg);
+  -webkit-transform: rotate(11deg);
+  -o-transform: rotate(11deg);
+  transform: rotate(11deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 595, ../sass/_cherryblossum.sass */
+#marco .rama4 {
+  border: 30px solid #2b0d0d;
+  border-width: 0px 10px 4px 0px;
+  -moz-border-radius: 0px 0px 300px 0px;
+  -webkit-border-radius: 0px 0px 300px 0px;
+  -o-border-radius: 0px 0px 300px 0px;
+  border-radius: 0px 0px 300px 0px;
+  right: 316px;
+  top: 231px;
+  width: 120px;
+  height: 160px;
+  position: absolute;
+  -moz-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 616, ../sass/_cherryblossum.sass */
+#marco .rama41 {
+  border: 30px solid #2b0d0d;
+  border-width: 0px 5px 3px 0px;
+  -moz-border-radius: 0px 0px 200px 0px;
+  -webkit-border-radius: 0px 0px 200px 0px;
+  -o-border-radius: 0px 0px 200px 0px;
+  border-radius: 0px 0px 200px 0px;
+  right: -35px;
+  top: 97px;
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  -moz-transform: rotate(-39deg);
+  -webkit-transform: rotate(-39deg);
+  -o-transform: rotate(-39deg);
+  transform: rotate(-39deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+/* line 637, ../sass/_cherryblossum.sass */
+#marco .rama5 {
+  border: 30px solid #2b0d0d;
+  border-width: 0px 0px 10px 4px;
+  -moz-border-radius: 0px 0px 0px 200px;
+  -webkit-border-radius: 0px 0px 0px 200px;
+  -o-border-radius: 0px 0px 0px 200px;
+  border-radius: 0px 0px 0px 200px;
+  right: 192px;
+  top: 14px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  -moz-transform: rotate(-23deg);
+  -webkit-transform: rotate(-23deg);
+  -o-transform: rotate(-23deg);
+  transform: rotate(-23deg);
+  -moz-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  transition: all 3s ease-out;
+}
+@media screen and (max-width: 850px) {
+  /* line 29, ../sass/_cherryblossum.sass */
+  #marco {
+    /*flores */
+  }
+  /* line 660, ../sass/_cherryblossum.sass */
+  #marco #marco {
+    width: 480px;
+    height: 350px;
+    -moz-border-radius: 0 50px 50px 50px;
+    -webkit-border-radius: 0 50px 50px 50px;
+    -o-border-radius: 0 50px 50px 50px;
+    border-radius: 0 50px 50px 50px;
+  }
+  /* line 667, ../sass/_cherryblossum.sass */
+  #marco #textos {
+    text-align: left;
+    font-size: 16px;
+    top: 10px;
+    left: 20px;
+    right: auto;
+    bottom: auto;
+    -moz-animation: fadeb 15s;
+    animation: fade 15s;
+  }
+  /* line 676, ../sass/_cherryblossum.sass */
+  #marco #textos p {
+    margin: 0 0 3px 0;
+  }
+  /* line 678, ../sass/_cherryblossum.sass */
+  #marco .rama1 {
+    width: 200px;
+    height: 200px;
+    border-width: 17px 0px 0px 7px;
+    border-color: #5d2f00;
+  }
+  /* line 683, ../sass/_cherryblossum.sass */
+  #marco .rama2 {
+    right: 209px;
+    top: 21px;
+    width: 150px;
+    height: 170px;
+    border-width: 0px 9px 5px 0px;
+    border-color: #5d2f00;
+  }
+  /* line 690, ../sass/_cherryblossum.sass */
+  #marco .rama21 {
+    border-width: 6px 0px 0px 2px;
+    right: -26px;
+    top: 71px;
+    width: 50px;
+    height: 60px;
+    border-color: #5d2f00;
+  }
+  /* line 697, ../sass/_cherryblossum.sass */
+  #marco .rama211 {
+    border-width: 0px 2px 1px 0px;
+    right: 49px;
+    top: 30px;
+    width: 5px;
+    height: 5px;
+    -moz-transform: rotate(27deg);
+    -webkit-transform: rotate(27deg);
+    -o-border-transform: rotate(27deg);
+    border-transform: rotate(27deg);
+    border-color: #5d2f00;
+  }
+  /* line 708, ../sass/_cherryblossum.sass */
+  #marco .rama22 {
+    border-width: 0px 5px 2px 0px;
+    right: 90px;
+    top: 166px;
+    width: 30px;
+    height: 35px;
+    border-color: #5d2f00;
+  }
+  /* line 715, ../sass/_cherryblossum.sass */
+  #marco .rama23 {
+    border-width: 2px 0px 0px 1px;
+    right: 139px;
+    top: 168px;
+    width: 5px;
+    height: 5px;
+    border-color: #5d2f00;
+  }
+  /* line 722, ../sass/_cherryblossum.sass */
+  #marco .rama3 {
+    border-width: 6px 0px 0px 2px;
+    right: 187px;
+    top: 79px;
+    width: 30px;
+    height: 30px;
+    border-color: #5d2f00;
+  }
+  /* line 729, ../sass/_cherryblossum.sass */
+  #marco .rama31 {
+    border-width: 3px 0px 0px 1px;
+    right: 22px;
+    top: 3px;
+    width: 1px;
+    height: 2px;
+    border-color: #5d2f00;
+  }
+  /* line 736, ../sass/_cherryblossum.sass */
+  #marco .rama4 {
+    border-width: 0px 5px 2px 0px;
+    right: 203px;
+    top: 165px;
+    width: 30px;
+    height: 30px;
+    border-color: #5d2f00;
+  }
+  /* line 743, ../sass/_cherryblossum.sass */
+  #marco .rama41 {
+    border-width: 0px 2px 1px 0px;
+    right: 0px;
+    top: 18px;
+    width: 2px;
+    height: 4px;
+    border-color: #5d2f00;
+  }
+  /* line 750, ../sass/_cherryblossum.sass */
+  #marco .rama5 {
+    border-width: 0px 0px 5px 2px;
+    right: 119px;
+    top: 14px;
+    width: 10px;
+    height: 10px;
+    border-color: #5d2f00;
+  }
+  /* line 758, ../sass/_cherryblossum.sass */
+  #marco .r1f1 {
+    width: 2px;
+    height: 2px;
+    right: 108px;
+    top: 27px;
+    -moz-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    -o-border-transform: rotate(100deg);
+    border-transform: rotate(100deg);
+  }
+  /* line 767, ../sass/_cherryblossum.sass */
+  #marco .r1f2 {
+    width: 12px;
+    height: 12px;
+    right: 181px;
+    top: 120px;
+    -moz-transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    -o-border-transform: rotate(130deg);
+    border-transform: rotate(130deg);
+  }
+  /* line 776, ../sass/_cherryblossum.sass */
+  #marco .r1f3 {
+    width: 25px;
+    height: 25px;
+    right: 172px;
+    top: 82px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-border-transform: rotate(10deg);
+    border-transform: rotate(10deg);
+  }
+  /* line 785, ../sass/_cherryblossum.sass */
+  #marco .r2f1 {
+    width: 10px;
+    height: 10px;
+    right: 60px;
+    top: 138px;
+    -moz-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -o-border-transform: rotate(120deg);
+    border-transform: rotate(120deg);
+  }
+  /* line 794, ../sass/_cherryblossum.sass */
+  #marco .r2f2 {
+    width: 25px;
+    height: 25px;
+    right: 74px;
+    top: 144px;
+    -moz-transform: rotate(261deg);
+    -webkit-transform: rotate(261deg);
+    -o-border-transform: rotate(261deg);
+    border-transform: rotate(261deg);
+  }
+  /* line 803, ../sass/_cherryblossum.sass */
+  #marco .r2f3 {
+    width: 5px;
+    height: 5px;
+    right: 27px;
+    top: 106px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-border-transform: rotate(10deg);
+    border-transform: rotate(10deg);
+  }
+  /* line 812, ../sass/_cherryblossum.sass */
+  #marco .r2f4 {
+    width: 10px;
+    height: 10px;
+    right: 0px;
+    top: 53px;
+    -moz-transform: rotate(211deg);
+    -webkit-transform: rotate(211deg);
+    -o-border-transform: rotate(211deg);
+    border-transform: rotate(211deg);
+  }
+  /* line 821, ../sass/_cherryblossum.sass */
+  #marco .r2f5 {
+    width: 35px;
+    height: 35px;
+    right: -2px;
+    top: 62px;
+    -moz-transform: rotate(268deg);
+    -webkit-transform: rotate(268deg);
+    -o-border-transform: rotate(268deg);
+    border-transform: rotate(268deg);
+  }
+  /* line 830, ../sass/_cherryblossum.sass */
+  #marco .r21f1 {
+    width: 10px;
+    height: 10px;
+    right: 43px;
+    top: 28px;
+    -moz-transform: rotate(177deg);
+    -webkit-transform: rotate(177deg);
+    -o-border-transform: rotate(177deg);
+    border-transform: rotate(177deg);
+  }
+  /* line 839, ../sass/_cherryblossum.sass */
+  #marco .r21f2 {
+    width: 2px;
+    height: 2px;
+    right: 51px;
+    top: 47px;
+    -moz-transform: rotate(161deg);
+    -webkit-transform: rotate(161deg);
+    -o-border-transform: rotate(161deg);
+    border-transform: rotate(161deg);
+  }
+  /* line 848, ../sass/_cherryblossum.sass */
+  #marco .r21f3 {
+    width: 4px;
+    height: 4px;
+    right: 49px;
+    top: 50px;
+    -moz-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -o-border-transform: rotate(120deg);
+    border-transform: rotate(120deg);
+  }
+  /* line 857, ../sass/_cherryblossum.sass */
+  #marco .r21f4 {
+    width: 2px;
+    height: 2px;
+    right: -1px;
+    top: 4px;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-border-transform: rotate(0deg);
+    border-transform: rotate(0deg);
+  }
+  /* line 866, ../sass/_cherryblossum.sass */
+  #marco .r22f1 {
+    width: 15px;
+    height: 15px;
+    right: -6px;
+    top: 5px;
+    -moz-transform: rotate(146deg);
+    -webkit-transform: rotate(146deg);
+    -o-border-transform: rotate(146deg);
+    border-transform: rotate(146deg);
+  }
+  /* line 875, ../sass/_cherryblossum.sass */
+  #marco .r22f2 {
+    width: 2px;
+    height: 2px;
+    right: 6px;
+    top: 24px;
+    -moz-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    -o-border-transform: rotate(100deg);
+    border-transform: rotate(100deg);
+  }
+  /* line 884, ../sass/_cherryblossum.sass */
+  #marco .r22f3 {
+    width: 5px;
+    height: 5px;
+    right: 16px;
+    top: 31px;
+    -moz-transform: rotate(215deg);
+    -webkit-transform: rotate(215deg);
+    -o-border-transform: rotate(215deg);
+    border-transform: rotate(215deg);
+  }
+  /* line 893, ../sass/_cherryblossum.sass */
+  #marco .r22f4 {
+    width: 2px;
+    height: 2px;
+    right: 20px;
+    top: 34px;
+    -moz-transform: rotate(115deg);
+    -webkit-transform: rotate(115deg);
+    -o-border-transform: rotate(115deg);
+    border-transform: rotate(115deg);
+  }
+  /* line 902, ../sass/_cherryblossum.sass */
+  #marco .r23f1 {
+    width: 2px;
+    height: 2px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -o-border-transform: rotate(200deg);
+    border-transform: rotate(200deg);
+  }
+  /* line 911, ../sass/_cherryblossum.sass */
+  #marco .r23f2 {
+    width: 2px;
+    height: 2px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    -o-border-transform: rotate(150deg);
+    border-transform: rotate(150deg);
+  }
+  /* line 920, ../sass/_cherryblossum.sass */
+  #marco .r23f3 {
+    width: 2px;
+    height: 2px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    -o-border-transform: rotate(300deg);
+    border-transform: rotate(300deg);
+  }
+  /* line 929, ../sass/_cherryblossum.sass */
+  #marco .r23f4 {
+    width: 2px;
+    height: 2px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -o-border-transform: rotate(200deg);
+    border-transform: rotate(200deg);
+  }
+  /* line 938, ../sass/_cherryblossum.sass */
+  #marco .r3f1 {
+    width: 0px;
+    height: 0px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-border-transform: rotate(5deg);
+    border-transform: rotate(5deg);
+  }
+  /* line 947, ../sass/_cherryblossum.sass */
+  #marco .r3f2 {
+    width: 3px;
+    height: 3px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(115deg);
+    -webkit-transform: rotate(115seg);
+    -o-border-transform: rotate(115deg);
+    border-transform: rotate(115deg);
+  }
+  /* line 956, ../sass/_cherryblossum.sass */
+  #marco .r3f3 {
+    width: 0px;
+    height: 0px;
+    right: 1px;
+    top: -3px;
+    -moz-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -o-border-transform: rotate(200deg);
+    border-transform: rotate(200deg);
+  }
+  /* line 965, ../sass/_cherryblossum.sass */
+  #marco .r3f4 {
+    width: 3px;
+    height: 3px;
+    right: 28px;
+    top: 16px;
+    -moz-transform: rotate(85deg);
+    -webkit-transform: rotate(85deg);
+    -o-border-transform: rotate(85deg);
+    border-transform: rotate(85deg);
+  }
+  /* line 974, ../sass/_cherryblossum.sass */
+  #marco .r3f5 {
+    width: 10px;
+    height: 10px;
+    right: 25px;
+    top: 19px;
+    -moz-transform: rotate(145deg);
+    -webkit-transform: rotate(145deg);
+    -o-border-transform: rotate(145deg);
+    border-transform: rotate(145deg);
+  }
+  /* line 983, ../sass/_cherryblossum.sass */
+  #marco .r4f1 {
+    width: 0px;
+    height: 0px;
+    right: -1px;
+    top: 3px;
+    -moz-transform: rotate(115deg);
+    -webkit-transform: rotate(115deg);
+    -o-border-transform: rotate(115deg);
+    border-transform: rotate(115deg);
+  }
+  /* line 992, ../sass/_cherryblossum.sass */
+  #marco .r4f2 {
+    width: 2px;
+    height: 2px;
+    right: -1px;
+    top: 3px;
+    -moz-transform: rotate(258deg);
+    -webkit-transform: rotate(258deg);
+    -o-border-transform: rotate(258deg);
+    border-transform: rotate(258deg);
+  }
+  /* line 1001, ../sass/_cherryblossum.sass */
+  #marco .r4f3 {
+    width: 3px;
+    height: 3px;
+    right: 2px;
+    top: 17px;
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-border-transform: rotate(0deg);
+    border-transform: rotate(0deg);
+  }
+  /* line 1010, ../sass/_cherryblossum.sass */
+  #marco .r4f4 {
+    width: 8px;
+    height: 8px;
+    right: 4px;
+    top: 18px;
+    -moz-transform: rotate(160deg);
+    -webkit-transform: rotate(160deg);
+    -o-border-transform: rotate(160deg);
+    border-transform: rotate(160deg);
+  }
+  /* line 1019, ../sass/_cherryblossum.sass */
+  #marco .rama5 .flor {
+    width: 15px;
+    height: 15px;
+    right: 3px;
+    top: 4px;
+    -moz-transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    -o-border-transform: rotate(130deg);
+    border-transform: rotate(130deg);
+  }
+}
+@media screen and (max-width: 550px) {
+  /* line 29, ../sass/_cherryblossum.sass */
+  #marco {
+    /*flores */
+  }
+  /* line 1030, ../sass/_cherryblossum.sass */
+  #marco #marco {
+    width: 280px;
+    height: 190px;
+    -moz-border-radius: 50px 50px 50px 0;
+    -webkit-border-radius: 50px 50px 50px 0;
+    -o-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+  }
+  /* line 1037, ../sass/_cherryblossum.sass */
+  #marco #textos {
+    text-align: left;
+    font-size: 13px;
+    bottom: 10px;
+    left: 20px;
+    top: auto;
+    right: auto;
+    -moz-animation: fade 15s;
+    animation: fade 15s;
+  }
+  /* line 1046, ../sass/_cherryblossum.sass */
+  #marco #textos p {
+    margin: 0;
+  }
+  /* line 1048, ../sass/_cherryblossum.sass */
+  #marco .rama1 {
+    width: 150px;
+    height: 100px;
+    border-width: 15px 0px 0px 5px;
+    border-color: #1a4a00;
+  }
+  /* line 1053, ../sass/_cherryblossum.sass */
+  #marco .rama2 {
+    right: 150px;
+    top: 12px;
+    width: 60px;
+    height: 80px;
+    border-width: 0px 7px 2px 0px;
+    border-color: #1a4a00;
+  }
+  /* line 1060, ../sass/_cherryblossum.sass */
+  #marco .rama21 {
+    border-width: 4px 0px 0px 2px;
+    right: 3px;
+    top: 52px;
+    width: 10px;
+    height: 10px;
+    border-color: #1a4a00;
+  }
+  /* line 1067, ../sass/_cherryblossum.sass */
+  #marco .rama211 {
+    border-width: 0px 2px 1px 0px;
+    right: 8px;
+    top: 0px;
+    width: 1px;
+    height: 1px;
+    border-color: #1a4a00;
+  }
+  /* line 1074, ../sass/_cherryblossum.sass */
+  #marco .rama22 {
+    border-width: 0px 2px 1px 0px;
+    right: 45px;
+    top: 80px;
+    width: 3px;
+    height: 3px;
+    border-color: #1a4a00;
+  }
+  /* line 1081, ../sass/_cherryblossum.sass */
+  #marco .rama23 {
+    border-width: 1px 0px 0px 1px;
+    right: 54px;
+    top: 80px;
+    width: 1px;
+    height: 1px;
+    border-color: #1a4a00;
+  }
+  /* line 1088, ../sass/_cherryblossum.sass */
+  #marco .rama3 {
+    border-width: 4px 0px 0px 2px;
+    right: 134px;
+    top: 36px;
+    width: 10px;
+    height: 5px;
+    border-color: #1a4a00;
+  }
+  /* line 1095, ../sass/_cherryblossum.sass */
+  #marco .rama31 {
+    border-width: 1px 0px 0px 1px;
+    right: 8px;
+    top: 1px;
+    width: 1px;
+    height: 1px;
+    border-color: #1a4a00;
+  }
+  /* line 1102, ../sass/_cherryblossum.sass */
+  #marco .rama4 {
+    border-width: 0px 3px 1px 0px;
+    right: 152px;
+    top: 80px;
+    width: 5px;
+    height: 10px;
+    border-color: #1a4a00;
+  }
+  /* line 1109, ../sass/_cherryblossum.sass */
+  #marco .rama41 {
+    border-width: 0px 1px 1px 0px;
+    right: 0px;
+    top: 7px;
+    width: 1px;
+    height: 1px;
+    border-color: #1a4a00;
+  }
+  /* line 1116, ../sass/_cherryblossum.sass */
+  #marco .rama5 {
+    border-width: 0px 0px 2px 1px;
+    right: 107px;
+    top: 14px;
+    width: 2px;
+    height: 2px;
+    border-color: #1a4a00;
+  }
+  /* line 1124, ../sass/_cherryblossum.sass */
+  #marco .r1f1 {
+    width: 0px;
+    height: 0px;
+    right: 108px;
+    top: 0px;
+    -moz-transform: rotate(190deg);
+    -webkit-transform: rotate(190deg);
+    -o-border-transform: rotate(190deg);
+    border-transform: rotate(190deg);
+  }
+  /* line 1133, ../sass/_cherryblossum.sass */
+  #marco .r1f2 {
+    width: 2px;
+    height: 2px;
+    right: 142px;
+    top: 63px;
+    -moz-transform: rotate(230deg);
+    -webkit-transform: rotate(230deg);
+    -o-border-transform: rotate(230deg);
+    border-transform: rotate(230deg);
+  }
+  /* line 1142, ../sass/_cherryblossum.sass */
+  #marco .r1f3 {
+    width: 3px;
+    height: 3px;
+    right: 137px;
+    top: 40px;
+    -moz-transform: rotate(110deg);
+    -webkit-transform: rotate(110deg);
+    -o-border-transform: rotate(110deg);
+    border-transform: rotate(110deg);
+  }
+  /* line 1151, ../sass/_cherryblossum.sass */
+  #marco .r2f1 {
+    width: 1px;
+    height: 1px;
+    right: 41px;
+    top: 77px;
+    -moz-transform: rotate(220deg);
+    -webkit-transform: rotate(220deg);
+    -o-border-transform: rotate(220deg);
+    border-transform: rotate(220deg);
+  }
+  /* line 1160, ../sass/_cherryblossum.sass */
+  #marco .r2f2 {
+    width: 5px;
+    height: 5px;
+    right: 43px;
+    top: 77px;
+    -moz-transform: rotate(126deg);
+    -webkit-transform: rotate(126deg);
+    -o-border-transform: rotate(126deg);
+    border-transform: rotate(126deg);
+  }
+  /* line 1169, ../sass/_cherryblossum.sass */
+  #marco .r2f3 {
+    width: 1px;
+    height: 1px;
+    right: 14px;
+    top: 58px;
+    -moz-transform: rotate(110deg);
+    -webkit-transform: rotate(110deg);
+    -o-border-transform: rotate(110deg);
+    border-transform: rotate(110deg);
+  }
+  /* line 1178, ../sass/_cherryblossum.sass */
+  #marco .r2f4 {
+    width: 1px;
+    height: 1px;
+    right: 7px;
+    top: 46px;
+    -moz-transform: rotate(121deg);
+    -webkit-transform: rotate(121deg);
+    -o-border-transform: rotate(121deg);
+    border-transform: rotate(121deg);
+  }
+  /* line 1187, ../sass/_cherryblossum.sass */
+  #marco .r2f5 {
+    width: 10px;
+    height: 10px;
+    right: 5px;
+    top: 47px;
+    -moz-transform: rotate(126deg);
+    -webkit-transform: rotate(126deg);
+    -o-border-transform: rotate(126deg);
+    border-transform: rotate(126deg);
+  }
+  /* line 1196, ../sass/_cherryblossum.sass */
+  #marco .r21f1 {
+    width: 0px;
+    height: 0px;
+    right: 8px;
+    top: 0px;
+    -moz-transform: rotate(117deg);
+    -webkit-transform: rotate(117deg);
+    -o-border-transform: rotate(117deg);
+    border-transform: rotate(117deg);
+  }
+  /* line 1205, ../sass/_cherryblossum.sass */
+  #marco .r21f2 {
+    width: 0px;
+    height: 0px;
+    right: 10px;
+    top: 5px;
+    -moz-transform: rotate(116deg);
+    -webkit-transform: rotate(116deg);
+    -o-border-transform: rotate(116deg);
+    border-transform: rotate(116deg);
+  }
+  /* line 1214, ../sass/_cherryblossum.sass */
+  #marco .r21f3 {
+    width: 0px;
+    height: 0px;
+    right: 11px;
+    top: 7px;
+    -moz-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -o-border-transform: rotate(12deg);
+    border-transform: rotate(12deg);
+  }
+  /* line 1223, ../sass/_cherryblossum.sass */
+  #marco .r21f4 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: 0px;
+    -moz-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    -o-border-transform: rotate(100deg);
+    border-transform: rotate(100deg);
+  }
+  /* line 1232, ../sass/_cherryblossum.sass */
+  #marco .r22f1 {
+    width: 2px;
+    height: 2px;
+    right: -2px;
+    top: 0px;
+    -moz-transform: rotate(46deg);
+    -webkit-transform: rotate(46deg);
+    -o-border-transform: rotate(46deg);
+    border-transform: rotate(46deg);
+  }
+  /* line 1241, ../sass/_cherryblossum.sass */
+  #marco .r22f2 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: 0px;
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-border-transform: rotate(10deg);
+    border-transform: rotate(10deg);
+  }
+  /* line 1250, ../sass/_cherryblossum.sass */
+  #marco .r22f3 {
+    width: 0px;
+    height: 0px;
+    right: 1px;
+    top: 3px;
+    -moz-transform: rotate(121deg);
+    -webkit-transform: rotate(121deg);
+    -o-border-transform: rotate(121deg);
+    border-transform: rotate(121deg);
+  }
+  /* line 1259, ../sass/_cherryblossum.sass */
+  #marco .r22f4 {
+    width: 0px;
+    height: 0px;
+    right: 1px;
+    top: 3px;
+    -moz-transform: rotate(11deg);
+    -webkit-transform: rotate(11deg);
+    -o-border-transform: rotate(11deg);
+    border-transform: rotate(11deg);
+  }
+  /* line 1268, ../sass/_cherryblossum.sass */
+  #marco .r23f1 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: -2px;
+    -moz-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -o-border-transform: rotate(200deg);
+    border-transform: rotate(200deg);
+  }
+  /* line 1277, ../sass/_cherryblossum.sass */
+  #marco .r23f2 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: -2px;
+    -moz-transform: rotate(150deg);
+    -webkit-transform: rotate(150deg);
+    -o-border-transform: rotate(150deg);
+    border-transform: rotate(150deg);
+  }
+  /* line 1286, ../sass/_cherryblossum.sass */
+  #marco .r23f3 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: -2px;
+    -moz-transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    -o-border-transform: rotate(300deg);
+    border-transform: rotate(300deg);
+  }
+  /* line 1295, ../sass/_cherryblossum.sass */
+  #marco .r23f4 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: -2px;
+    -moz-transform: rotate(200deg);
+    -webkit-transform: rotate(200deg);
+    -o-border-transform: rotate(200deg);
+    border-transform: rotate(200deg);
+  }
+  /* line 1304, ../sass/_cherryblossum.sass */
+  #marco .r3f1 {
+    width: 0px;
+    height: 0px;
+    right: 5px;
+    top: -4px;
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -o-border-transform: rotate(25deg);
+    border-transform: rotate(25deg);
+  }
+  /* line 1313, ../sass/_cherryblossum.sass */
+  #marco .r3f2 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: -3px;
+    -moz-transform: rotate(115deg);
+    -webkit-transform: rotate(115deg);
+    -o-border-transform: rotate(115deg);
+    border-transform: rotate(115deg);
+  }
+  /* line 1322, ../sass/_cherryblossum.sass */
+  #marco .r3f4 {
+    width: 0px;
+    height: 0px;
+    right: 10px;
+    top: 2px;
+    -moz-transform: rotate(85deg);
+    -webkit-transform: rotate(85deg);
+    -o-border-transform: rotate(85deg);
+    border-transform: rotate(85deg);
+  }
+  /* line 1331, ../sass/_cherryblossum.sass */
+  #marco .r3f5 {
+    width: 2px;
+    height: 2px;
+    right: 10px;
+    top: 2px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-border-transform: rotate(45deg);
+    border-transform: rotate(45deg);
+  }
+  /* line 1340, ../sass/_cherryblossum.sass */
+  #marco .r4f2 {
+    width: 0px;
+    height: 0px;
+    right: -2px;
+    top: -1px;
+    -moz-transform: rotate(125deg);
+    -webkit-transform: rotate(125deg);
+    -o-border-transform: rotate(125deg);
+    border-transform: rotate(125deg);
+  }
+  /* line 1349, ../sass/_cherryblossum.sass */
+  #marco .r4f3 {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: 8px;
+    -moz-transform: rotate(100deg);
+    -webkit-transform: rotate(100deg);
+    -o-border-transform: rotate(100deg);
+    border-transform: rotate(100deg);
+  }
+  /* line 1358, ../sass/_cherryblossum.sass */
+  #marco .r4f4 {
+    width: 2px;
+    height: 2px;
+    right: 2px;
+    top: 9px;
+    -moz-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+    -o-border-transform: rotate(60deg);
+    border-transform: rotate(60deg);
+  }
+  /* line 1367, ../sass/_cherryblossum.sass */
+  #marco .rama5 .flor {
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    top: 0px;
+    -moz-transform: rotate(230deg);
+    -webkit-transform: rotate(230deg);
+    -o-border-transform: rotate(230deg);
+    border-transform: rotate(230deg);
+  }
+}
+
+/* Colors */
+/* line 34, ../sass/japanese.sass */
+body {
+  font: normal 0.875em/1.4 Palatino, Georgia, "Times New Roman", serif;
+  line-height: 1.4;
+  background: #eeeeee;
+}
+
+/* line 40, ../sass/japanese.sass */
+h1, h2, h3, h4, h5, .post.quote blockquote, .permalink p, .source, #footer {
+  font-family: "GillSans", "Gill Sans", Helvetica;
+  letter-spacing: 0.14em;
+  margin: 0 15px 0.8em;
+  text-align: center;
+  text-shadow: white 0 0 0;
+  text-transform: uppercase;
+}
+
+/* line 48, ../sass/japanese.sass */
+h2 {
+  font-size: 1.28em;
+  line-height: 1.33;
+  padding: 0;
+}
+/* line 52, ../sass/japanese.sass */
+h2 a {
+  color: #242424;
+  text-decoration: none;
+}
+/* line 55, ../sass/japanese.sass */
+h2 a:hover {
+  color: #c56c36;
+}
+
+/* line 58, ../sass/japanese.sass */
+#rightbar {
+  float: left;
+  margin-top: 150px;
+  margin-left: 695px;
+  font-family: "GillSans", "Gill Sans", Helvetica;
+  position: absolute;
+}
+
+/* line 65, ../sass/japanese.sass */
+p {
+  padding: 0.5em 0 0.5em;
+}
+
+/* line 68, ../sass/japanese.sass */
+.hr {
+  border-bottom: 1px #9d9f9a solid;
+  margin: 0 auto 1em;
+  width: 140px;
+}
+/* line 72, ../sass/japanese.sass */
+.hr hr {
+  display: none;
+}
+
+/* line 76, ../sass/japanese.sass */
+.japanese-saying {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 82, ../sass/japanese.sass */
+#header h1 {
+  background: transparent;
+  margin: 0 auto;
+  width: 650px;
+}
+/* line 86, ../sass/japanese.sass */
+#header h1 a {
+  color: #111111;
+  display: block;
+  height: 200px;
+  text-decoration: none;
+}
+/* line 91, ../sass/japanese.sass */
+#header h1 a:hover {
+  color: #666666;
+}
+/* line 93, ../sass/japanese.sass */
+#header h1 a span {
+  display: table-cell;
+  height: 200px;
+  vertical-align: middle;
+  width: 650px;
+}
+/* line 98, ../sass/japanese.sass */
+#header h1 a em {
+  display: block;
+  font-size: 0.8em;
+  font-style: normal;
+}
+
+/* line 103, ../sass/japanese.sass */
+.pages {
+  text-align: center;
+  line-height: 1.8;
+  background: #b9334c;
+  padding: 15px 35px;
+}
+/* line 108, ../sass/japanese.sass */
+.pages a {
+  color: #444444;
+  font-size: 9px;
+  font-family: "GillSans", "Gill Sans", Helvetica;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border: 2px solid #444444;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  padding: 3px 7px;
+  display: inline-block;
+}
+/* line 123, ../sass/japanese.sass */
+.pages a:hover {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #aaaaaa));
+  background-image: -webkit-linear-gradient(#ffffff, #aaaaaa);
+  background-image: -moz-linear-gradient(#ffffff, #aaaaaa);
+  background-image: -o-linear-gradient(#ffffff, #aaaaaa);
+  background-image: linear-gradient(#ffffff, #aaaaaa);
+}
+
+/* line 127, ../sass/japanese.sass */
+#footer {
+  background: #f0a6c7;
+  margin: 0;
+  color: #eeeeee;
+  border-top: 6px solid #f0a6c7;
+}
+/* line 132, ../sass/japanese.sass */
+#footer .wrapper {
+  background: #b9334c;
+  margin: 0 auto 0;
+  overflow: hidden;
+  padding: 10px 0 20px;
+  width: 620px;
+  zoom: 1;
+}
+/* line 139, ../sass/japanese.sass */
+#footer ul li {
+  float: left;
+  padding-top: 2.6em;
+  width: 220px;
+}
+/* line 143, ../sass/japanese.sass */
+#footer ul li.page {
+  font-size: 4.4em;
+  padding-top: 0;
+  width: 180px;
+  text-shadow: #222222 0 2px 2px;
+}
+/* line 148, ../sass/japanese.sass */
+#footer ul li.newer {
+  text-align: left;
+}
+/* line 150, ../sass/japanese.sass */
+#footer ul li.older {
+  text-align: right;
+}
+/* line 152, ../sass/japanese.sass */
+#footer p {
+  clear: both;
+  text-align: center;
+  font-size: 11px;
+}
+/* line 156, ../sass/japanese.sass */
+#footer a {
+  color: #eeeeee;
+  text-decoration: none;
+  text-shadow: #555555 0 1px 1px;
+}
+/* line 160, ../sass/japanese.sass */
+#footer a:hover {
+  color: white;
+  text-shadow: 0.01em 0.01em 1em white;
+}
+
+/* line 164, ../sass/japanese.sass */
+.post {
+  background: transparent;
+  border-top: 6px #b9334c solid;
+}
+/* line 167, ../sass/japanese.sass */
+.post .wrapper {
+  background: transparent;
+  margin: 0 auto;
+  padding: 1.2em 15px;
+  width: 590px;
+}
+/* line 172, ../sass/japanese.sass */
+.post .permalink {
+  background: #c56c36;
+}
+/* line 174, ../sass/japanese.sass */
+.post .permalink .wrapper {
+  background: #c56c36 url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+  padding: 0 15px;
+  position: relative;
+}
+/* line 178, ../sass/japanese.sass */
+.post .permalink p {
+  font-size: 0.7em;
+  margin: 0;
+  overflow: hidden;
+  text-align: right;
+  padding: 1em 0;
+}
+/* line 184, ../sass/japanese.sass */
+.post .permalink p a {
+  border: 0;
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+  color: #eeeeee !important;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  text-shadow: #555555 0 1px 1px;
+  zoom: 1;
+}
+/* line 193, ../sass/japanese.sass */
+.post .permalink p a:hover {
+  color: white !important;
+  text-shadow: 0.01em 0.01em 1em white;
+}
+/* line 196, ../sass/japanese.sass */
+.post .permalink p a span {
+  display: block;
+  float: left;
+  padding: 20px 35px 20px 0;
+  width: 260px;
+}
+/* line 201, ../sass/japanese.sass */
+.post .permalink p a .right {
+  padding: 20px 0 20px 35px;
+  text-align: left;
+}
+/* line 204, ../sass/japanese.sass */
+.post .permalink .wrapper {
+  padding-bottom: 0;
+}
+/* line 206, ../sass/japanese.sass */
+.post img, .post object, .post embed {
+  border: 1px #d0cdce solid;
+  padding: 4px;
+}
+/* line 209, ../sass/japanese.sass */
+.post a:hover img {
+  background: white;
+  border-color: #398c81;
+}
+/* line 212, ../sass/japanese.sass */
+.post .description {
+  padding: 10px;
+  margin-top: 10px;
+  background: #eeeeee;
+}
+
+/* line 217, ../sass/japanese.sass */
+.poss .description p:first-child {
+  margin-top: 0;
+}
+
+/* line 221, ../sass/japanese.sass */
+.post .content {
+  border-left: 15px solid #f0a6c7;
+  border-right: 15px solid #f0a6c7;
+}
+/* line 224, ../sass/japanese.sass */
+.post p a, .post li a, .post .description a {
+  border-bottom: 1px #c8c8ad solid;
+  color: #bc3d0e;
+  text-decoration: none;
+}
+/* line 228, ../sass/japanese.sass */
+.post p a:hover, .post li a:hover, .post .description a:hover {
+  color: black !important;
+}
+/* line 230, ../sass/japanese.sass */
+.post blockquote {
+  border-left: 1px #9d9f9a dotted;
+  margin: 0 15px 0.5em;
+  padding: 0 0 0 10px;
+}
+/* line 234, ../sass/japanese.sass */
+.post blockquote p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+/* line 238, ../sass/japanese.sass */
+.post ul {
+  list-style: disc;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+/* line 242, ../sass/japanese.sass */
+.post ol {
+  margin-right: 16px;
+  margin-left: 20px;
+}
+/* line 246, ../sass/japanese.sass */
+.post.quote {
+  border-color: #325c95;
+  background: #eeeeee;
+}
+/* line 249, ../sass/japanese.sass */
+.post.quote blockquote {
+  border: 0;
+  font-size: 2em;
+  line-height: 1.2;
+  padding: 0;
+}
+/* line 254, ../sass/japanese.sass */
+.post.quote blockquote.short {
+  font-size: 2em;
+}
+/* line 256, ../sass/japanese.sass */
+.post.quote blockquote.medium {
+  font-size: 1.7em;
+}
+/* line 258, ../sass/japanese.sass */
+.post.quote blockquote.long {
+  font-size: 1.4em;
+}
+/* line 260, ../sass/japanese.sass */
+.post.quote blockquote p {
+  padding-bottom: 0;
+}
+/* line 262, ../sass/japanese.sass */
+.post.quote p a, .post.quote li a, .post.quote .source a {
+  color: #005a9e;
+}
+/* line 264, ../sass/japanese.sass */
+.post.quote .permalink {
+  background: #2c5082;
+}
+/* line 266, ../sass/japanese.sass */
+.post.quote .permalink .wrapper {
+  background-color: #2c5082;
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+}
+/* line 269, ../sass/japanese.sass */
+.post.quote .permalink p a {
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+}
+/* line 272, ../sass/japanese.sass */
+.post.text {
+  background: #eeeeee;
+}
+/* line 275, ../sass/japanese.sass */
+.post.photo {
+  border-color: #299370;
+  text-align: center;
+}
+/* line 278, ../sass/japanese.sass */
+.post.photo h2 a:hover, .post.photo p a, .post.photo li a, .post.photo .description a {
+  color: #036f5d;
+}
+/* line 280, ../sass/japanese.sass */
+.post.photo .permalink {
+  background: #237f61;
+}
+/* line 282, ../sass/japanese.sass */
+.post.photo .permalink .wrapper {
+  background-color: #237f61;
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+}
+/* line 285, ../sass/japanese.sass */
+.post.photo .permalink p a {
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+}
+/* line 288, ../sass/japanese.sass */
+.post.video {
+  border-color: #ca3d53;
+}
+/* line 290, ../sass/japanese.sass */
+.post.video h2 a:hover, .post.video p a, .post.video li a, .post.video .description a {
+  color: #cd2855;
+}
+/* line 292, ../sass/japanese.sass */
+.post.video .permalink {
+  background: #ba3348;
+}
+/* line 294, ../sass/japanese.sass */
+.post.video .permalink .wrapper {
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+  background-color: #ba3348;
+}
+/* line 297, ../sass/japanese.sass */
+.post.video .permalink p a {
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+}
+/* line 299, ../sass/japanese.sass */
+.post.video .post-video {
+  width: 500px;
+  margin: 0 auto;
+}
+/* line 303, ../sass/japanese.sass */
+.post.link {
+  border-color: #58bc33;
+  background: #eeeeee;
+}
+/* line 306, ../sass/japanese.sass */
+.post.link h2 a:hover, .post.link p a, .post.link li a, .post.link .description a {
+  color: #a40e12;
+}
+/* line 308, ../sass/japanese.sass */
+.post.link .permalink {
+  background: #4fa82e;
+}
+/* line 310, ../sass/japanese.sass */
+.post.link .permalink .wrapper {
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+  background-color: #4fa82e;
+}
+/* line 313, ../sass/japanese.sass */
+.post.link .permalink p a {
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+}
+/* line 316, ../sass/japanese.sass */
+.post.conversation {
+  border-color: #325c95;
+  background: #eeeeee;
+}
+/* line 319, ../sass/japanese.sass */
+.post.conversation h2 a:hover, .post.conversation p a, .post.conversation li a, .post.conversation .description a {
+  color: #d5be16;
+}
+/* line 321, ../sass/japanese.sass */
+.post.conversation .permalink {
+  background: #2c5082;
+}
+/* line 323, ../sass/japanese.sass */
+.post.conversation .permalink .wrapper {
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+  background-color: #2c5082;
+}
+/* line 326, ../sass/japanese.sass */
+.post.conversation .permalink p a {
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+}
+/* line 328, ../sass/japanese.sass */
+.post.conversation ul {
+  list-style: none;
+  margin-left: 0;
+}
+/* line 331, ../sass/japanese.sass */
+.post.conversation ul li {
+  padding: 5px 8px 4px;
+}
+/* line 333, ../sass/japanese.sass */
+.post.conversation ul li span {
+  color: #444444;
+}
+/* line 335, ../sass/japanese.sass */
+.post.conversation ul li.user_1 {
+  background: #9abc34;
+  border-left: 1px #cfcfaf dotted;
+}
+/* line 338, ../sass/japanese.sass */
+.post.conversation ul li.user_2 {
+  background: transparent;
+  border-left: 0;
+}
+/* line 341, ../sass/japanese.sass */
+.post.conversation ul li.user_3 {
+  background: #f7fdaf;
+  border-left: 1px #c3c3ab dotted;
+}
+/* line 344, ../sass/japanese.sass */
+.post.audio {
+  border-color: #ca3d53;
+}
+/* line 346, ../sass/japanese.sass */
+.post.audio h2 a:hover, .post.audio p a, .post.audio li a, .post.audio .description a {
+  color: #006e9d;
+}
+/* line 348, ../sass/japanese.sass */
+.post.audio .permalink {
+  background: #ba3348;
+}
+/* line 350, ../sass/japanese.sass */
+.post.audio .permalink .wrapper {
+  background-image: url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/bg-wrapper.png);
+  background-color: #ba3348;
+}
+/* line 353, ../sass/japanese.sass */
+.post.audio .permalink p a {
+  background: transparent url(http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/images/koi.gif) center center no-repeat;
+}
+/* line 355, ../sass/japanese.sass */
+.post.audio .audio_player {
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* line 359, ../sass/japanese.sass */
+.source {
+  margin: 0 80px;
+}
+
+/* line 362, ../sass/japanese.sass */
+#pagewrap {
+  width: 650px;
+  float: left;
+  position: absolute;
+  z-index: 100;
+  margin: 0;
+}
+
+/* line 369, ../sass/japanese.sass */
+.text img {
+  max-width: 100%;
+}
+
+/* line 373, ../sass/japanese.sass */
+.post .permalink .wrapper a.comments {
+  color: #444444;
+  font-size: 9px;
+  font-family: "GillSans", "Gill Sans", Helvetica;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border: 2px solid #444444;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  padding: 2px 7px;
+  position: absolute;
+  top: 27px;
+  right: 30px;
+}
+/* line 389, ../sass/japanese.sass */
+.post .permalink .wrapper a.notes {
+  color: #444444;
+  font-size: 9px;
+  font-family: "GillSans", "Gill Sans", Helvetica;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  border: 2px solid #444444;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  padding: 2px 7px;
+  position: absolute;
+  top: 27px;
+  left: 30px;
+}
+
+/* line 406, ../sass/japanese.sass */
+ol.notes {
+  color: #444444;
+  font-size: 9px;
+  font-family: "GillSans", "Gill Sans", Helvetica;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0 5px;
+  list-style-type: none;
+  clear: both;
+}
+/* line 416, ../sass/japanese.sass */
+ol.notes a img.avatar {
+  max-width: 16px;
+  border-width: 0px;
+  margin: 2px 8px 0 0;
+  padding: 0;
+  float: left;
+}
+/* line 422, ../sass/japanese.sass */
+ol.notes span.action {
+  float: left;
+  padding-top: 1px;
+  line-height: 18px;
+}
+/* line 426, ../sass/japanese.sass */
+ol.notes .clear {
+  clear: both;
+  height: 1px;
+}
+/* line 429, ../sass/japanese.sass */
+ol.notes blockquote {
+  padding: 4px 10px;
+  margin: 7px 0px 0px 25px;
+  font-weight: normal;
+}
+/* line 433, ../sass/japanese.sass */
+ol.notes blockquote a {
+  text-decoration: none;
+}
+/* line 435, ../sass/japanese.sass */
+ol.notes .answer_content {
+  font-weight: normal;
+}
+
+/* line 438, ../sass/japanese.sass */
+#disqus_thread {
+  font-size: 0.5em;
+  text-align: left !important;
+  padding: 0 5px;
+}
+/* line 442, ../sass/japanese.sass */
+#disqus_thread a {
+  color: #444444;
+  text-align: left !important;
+}
