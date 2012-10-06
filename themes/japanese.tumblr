@@ -1,7 +1,7 @@
 {block:tumblrThemr}
-  <link rel="stylesheet" href="http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/style/japanese.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="themes/japanese/style/japanese.css" type="text/css" media="screen"/>
   <!--[if IE]>
-  <link rel="stylesheet" href="http://paigeponzeka.github.com/JapaneseTheme/themes/japanese/style/ie.css" type="text/css" media="screen"/>
+  <link rel="stylesheet" href="themes/japanese/style/ie.css" type="text/css" media="screen"/>
   <![endif]-->
   <style type="text/css">{CustomCSS}</style>
 

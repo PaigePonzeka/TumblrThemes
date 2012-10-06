@@ -39,6 +39,10 @@ body > #tumblrthemr-loading {
 
 #tumblrthemr-config {
   position: absolute;
+  top: 0;
+  clear: both;
+  overflow: hidden;
+
 }
 
 body > #tumblrthemr-config {
@@ -49,13 +53,14 @@ body > #tumblrthemr-config {
   font: bold 11px/1.4 Helvetica, arial, verdana, sans-serif;
   letter-spacing: .2em;
   padding: 20px;
+  height: 20px;
   position: fixed;
-  left: 20px;
-  text-transform: uppercase;
+  left: 0;
+  display: block !important;
   z-index: 99999;
-  -moz-box-shadow:    rgba(0,0,0,.1) 0 0 5px;
-  -webkit-box-shadow: rgba(0,0,0,.1) 0 0 5px;
-  box-shadow:         rgba(0,0,0,.1) 0 0 5px; 
+  -moz-box-shadow:    rgba(0,0,0,.8) 0 5px 5px;
+  -webkit-box-shadow: rgba(0,0,0,.8) 0 5px 5px;
+  box-shadow:         rgba(0,0,0,.8) 0 5px 5px; 
 }
   #tumblrthemr-config label {
     display: block;
@@ -75,6 +80,7 @@ body > #tumblrthemr-config {
     border-bottom: 1px #ccc solid;
     font-size: 12px;
     padding: 3px 3px 4px;
+
   }
     #tumblrthemr-config input:focus {
       border-bottom: 1px #333 solid;
@@ -88,9 +94,9 @@ body > #tumblrthemr-config {
     border-radius:         3px;
     cursor: pointer;
     font: bold 12px/1.4 Helvetica, arial, verdana, sans-serif;
-    margin: 14px 6px 0 -6px;
     padding: 5px 8px;
     text-shadow: rgba(255,255,255,.5) 0 1px 0;
+    float: right;
   }
     #tumblrthemr-config button:hover {
       background: #bababa;
@@ -115,6 +121,9 @@ body > #tumblrthemr-config {
   #tumblrthemr-label-url input {
     width: 270px;
   }
+#tumblrthemr-label-theme{
+  float: left;
+}
 #tumblrthemr-label-theme input {
   width: 200px;
 }
@@ -124,7 +133,7 @@ body > #tumblrthemr-config {
   text-align: center;
   font: bold 30px/1.4 Helvetica, arial, verdana, sans-serif;
   text-shadow: rgba(255,255,255,.5) 0 1px 0;
-  margin: 200px 0 30px;
+  margin: 20px 0 30px;
 }
 
 #tumblrthemr-config-show {
@@ -172,11 +181,7 @@ body > #tumblrthemr-config {
   .tumblrthemr-start #tumblrthemr-config input {
     font-size: 18px;
   }
-  .tumblrthemr-start #tumblrthemr-config button {
-    font-size: 18px;
-    margin-top: 18px;
-    padding: 6px 10px 7px;
-  }
+  
   .tumblrthemr-start  #tumblrthemr-label-url input {
     width: 370px;
   }
