@@ -1,0 +1,354 @@
+{block:tumblrThemr}
+  
+  <style type="text/css">{CustomCSS}</style>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+
+        .                                  .o8       oooo
+      .o8                                 "888       `888
+    .o888oo oooo  oooo  ooo. .oo.  .oo.    888oooo.   888  oooo d8b
+      888   `888  `888  `888P"Y88bP"Y88b   d88' `88b  888  `888""8P
+      888    888   888   888   888   888   888   888  888   888
+      888 .  888   888   888   888   888   888   888  888   888     .o.
+      "888"  `V88V"V8P' o888o o888o o888o  `Y8bod8P' o888o d888b    Y8P
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- DEFAULT VARIABLES -->
+    <meta name="color:Background" content="#3b627e" />
+    <meta name="font:Title" content="Arial" />
+    <meta name="font:Body" content="Arial" />
+    <meta name="font:Accent" content="Lucida Sans" />
+    <meta name="if:Show People I Follow" content="1" />
+    <meta name="if:Show Tags" content="1" />
+    <meta name="if:Show Album Art on Audio Posts" content="1" />
+   
+    <meta name="image:Header" content="" />
+    <meta name="image:Background" content="" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{Title}{block:SearchPage}, Search results for: {SearchQuery}{/block:SearchPage}{block:PostSummary}, {PostSummary}{/block:PostSummary}</title>
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <link rel="shortcut icon" href="{Favicon}" />
+    <link rel="alternate" type="application/rss+xml" href="{RSS}" />
+    <!--<link rel="stylesheet" href="themes/butterfly/style/butterfly.css" type="text/css" media="screen"/>-->
+    <link rel="stylesheet" href="themes/starry/style/experiment.css">	
+
+    
+
+    <style type="text/css">{CustomCSS}</style>
+</head>
+<body>
+    <div id="experiment">
+		<div id="background"></div>	
+
+		 
+
+		<div id="content">
+
+			<div id="header" class='block'>
+
+            <a href="/"> <h1> {Title} </h1> </a>
+            <p> {Description} <p>
+
+            <div id="navigation">
+
+	          <ul>
+	            <li> <a href="/">Home</a> </li>
+	            {block:AskEnabled}<li> <a href="/ask"> {AskLabel} </a> </li>{/block:AskEnabled}
+	            {block:HasPages}{block:Pages} <li><a href="{URL}">{Label}</a></li>{/block:Pages} {/block:HasPages}
+	          </ul>
+                
+            </div>	
+
+
+        </div>
+          
+            {block:SearchPage}
+                <div id="searchresults" class="searchresultcount">{SearchResultCount} results for <strong>"{SearchQuery}"</strong></div>
+            {/block:SearchPage}
+
+            {block:NoSearchResults}
+                <style type="text/css">
+                    .searchresultcount {
+                        display: none;
+                    }
+                </style>
+                <div id="searchresults">No results for <strong>"{SearchQuery}"</strong></div>
+            {/block:NoSearchResults}
+
+            {block:Posts}
+                <div class="post">
+                  <div class = "post_butterfly"></div>
+                    {block:Photoset}
+                      <div class="post_title">
+                           <a href="{Permalink}">{block:Title} <h2> {Title} </h2> {/block:Title}</a>
+                        </div>
+
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+
+                      <div class="post_body">
+                        <div class="post_media">{Photoset-500}</div>
+                        {block:Caption}<div class="post_caption">{Caption}</div>{/block:Caption}
+                        </div>
+                        
+                    </li>
+                    {/block:Photoset}
+                    {block:Photo}
+                      <div class = "post_title">
+                         <a href="{Permalink}"><h2> From the Photo Album </h2></a>
+                      </div>
+                      
+                      
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+
+                      <div class="post_body">
+                        <div class="post_media">{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" />{LinkCloseTag}</div>
+                        {block:Caption}<div class="post_caption">{Caption}</div>{/block:Caption}
+                        </div>
+                    {/block:Photo}
+
+                    {block:Video}
+                    
+                      <div class = "post_title">
+                        <a href="{Permalink}"> <h2>Watch This</h2></a>
+                      </div>
+                      
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                        
+                        <div class="post_body">
+                          <div class="post_media">{Video-500}</div>
+                        {block:Caption}
+                          <div class="post_caption">{Caption}</div>
+                        {/block:Caption}
+                        </div>
+                    {/block:Video}
+
+                    {block:Audio}
+                      <div class = "post_title">
+                         <a href="{Permalink}"><h2>Listen To This</h2></a>
+                      </div>
+                      
+                       <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                      <div class="post_body">
+                        {block:IfShowAlbumArtOnAudioPosts}
+                            {block:AlbumArt}
+                                <div class="album_art">
+                                    <img src="{AlbumArtURL}" alt="{block:Artist}{Artist}{/block:Artist}{block:TrackName} - {TrackName}{/block:TrackName}" style="margin-bottom: 10px" />
+                                </div>
+                            {/block:AlbumArt}
+                        {/block:IfShowAlbumArtOnAudioPosts}
+
+                        <div class="audio">
+                            <div class="player">{AudioPlayerWhite}</div>
+                            <div class="meta">{PlayCountWithLabel}{block:ExternalAudio} &bull; <a href="{ExternalAudioURL}">download</a>{/block:ExternalAudio}</div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                        {block:Caption}<div class="copy">{Caption}</div>{/block:Caption}
+                      </div>
+                    {/block:Audio}
+
+                    {block:Quote}
+                      <div class = "post_title">
+                        <a href="{Permalink}"><h2> Words of Wisdom </h2></a> 
+                      </div>
+                      
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                        <div class="post_body">
+                        <div class="post_quote {Length}">{Quote}</div>
+                        <div class="post_source">
+                            <div class="quotebg">“</div>
+                            {block:Source}
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td valign="top" style="width: 20px">&mdash;</td>
+                                        <td valign="top" class="quote_source">
+                                            {Source}
+                                        </td>
+                                    </tr>
+                                </table>
+                            {/block:Source}
+                        </div>
+                      </div>
+                    {/block:Quote}
+
+                    {block:Text}
+                      <div class = "post_title">
+                       {block:Title} <a href="{Permalink}"><h2>{Title}</h2></a>{/block:Title}
+                      </div>
+
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                        <div class="post_body">{Body}</div>
+                    {/block:Text}
+
+                    {block:Answer}
+                      <div class = "post_title">
+                        <h2>  <a href="{Permalink}">Ask A Question </a></h2>
+                      </div>
+                
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                        <div class="post_body">
+                        <div class="post_question">
+                            <div class="nipple"></div>
+                            {Question}
+                        </div>
+                        <div class="post_asker">
+                          <img src="{AskerPortraitURL-24}">{Asker}
+                          </div>
+                          <h3> Answer:</h3>
+                        <div class="post_answer">{Answer}</div>
+                      </div>
+                    {/block:Answer}
+
+                    {block:Chat}
+                        <div class="post_title">
+                          {block:Title} <a href="{Permalink}"> <h2> {Title} </h2></a> {/block:Title}
+                        </div>
+
+                        <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                        <div class="post_body">
+                        <div class="post_chat">
+                            <div class="lines">
+                                {block:Lines}
+                                    <div class="line {Alt}">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div>
+                                {/block:Lines}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div style="height: 10px"></div>
+                        </div>
+                    {/block:Chat}
+
+                    {block:Link}
+                      <div class = "post_title">
+                         <a href="{Permalink}"><h2>Check This Out</h2></a>
+                      </div>
+                      
+                    <div class="post_date">
+                        <a href="{Permalink}">
+                            {Month} {DayOfMonth}, {Year}
+                        </a>
+                        </div>
+                        
+                      <div class="post_body">
+                        <div class="link"><a href="{URL}" {Target}>{Name} &raquo;</a></div>
+                        {block:Description}
+                          <div class="post_description">
+                            {Description}
+                          </div>
+                        {/block:Description}
+
+                        </div>
+                    {/block:Link}
+
+                    <div class="post_footer">
+                        {block:RebloggedFrom} 
+                        <div class = "post_reblog">
+                        {block:Reblog}Reblogged{/block:Reblog}
+                        from 
+                        <a href={ReblogParentURL}>
+                          {ReblogParentName}
+                        </a>
+                        </div>
+                        {/block:RebloggedFrom} 
+                                
+                        {block:HasTags}
+                          <div class="post_tags">
+                            <div class="tags">
+                              {block:Tags}
+                                <a href="{TagURL}">
+                                {Tag}
+                                </a>
+                              {/block:Tags}      
+                            </div>
+                          </div>
+                          {/block:HasTags}  
+                    
+                        {block:NoteCount} 
+                            <a href="{Permalink}">
+                            <div class="post_notes">
+                            {NoteCountWithLabel}{block:IfDisqusShortname}{block:NoteCount}&bull;{/block:NoteCount} <a href="{Permalink}#disqus_thread">view comments</a>{/block:IfDisqusShortname}</div>                          </a>
+                                <div class="clear"></div>
+                           {/block:NoteCount}     
+                                
+                                                    
+                            </div>
+
+
+
+
+
+                </div>
+                {PostNotes}
+            {/block:Posts}
+
+            {block:Pagination}
+                <div class="pagination">
+                    {block:PreviousPage}<a href="{PreviousPage}" class="previous pull-left">&larr; Previous Page</a>{/block:PreviousPage}
+                    {block:NextPage}<a href="{NextPage}" class="next pull-right">Next Page &rarr;</a>{/block:NextPage}
+                </div>
+            {/block:Pagination}
+
+        </div>
+        <div id="footer" class="block">
+          <p>
+            &copy; {CopyrightYears}
+            <a href="http://www.tumblr.com">Powered by Tumblr</a>
+          </p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+    
+
+   
+</body>
+</html>
+
+
+
+{/block:tumblrThemr}
