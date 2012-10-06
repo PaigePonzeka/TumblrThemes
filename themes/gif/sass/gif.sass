@@ -1,0 +1,127 @@
+@import "reset"
+@import "compass/utilities/", "compass/css3/border-radius"
+
+@import "_isotope"
+
+$link-color: #90F
+
+
+body 
+  font-family: Helvetica, Arial, Sans-serif
+h1
+  padding: 10px 0
+
+  a
+    font-size: 14px
+    margin-left: 10px
+
+
+    &.title-link
+      color: block
+      font-size: 24px
+      font-weight: bold
+
+a
+  color: $link-color
+  text-decoration: none
+
+  &:hover
+    color: darken($link-color, 20%)
+.header
+  text-align: center
+
+.navigation
+  text-align: center
+  padding: 10px 0
+
+.sort-container
+  +clearfix
+  width: 100%
+  text-align: center
+  padding: 10px 0
+
+
+
+  ul.sort
+    width: 500px
+    margin: 0 auto
+    li
+      float: left
+      margin: 0 5px
+      a
+        padding: 5px
+
+        text-decoration: none
+        +border-radius(5px)
+
+      &.active
+        
+        a
+          background: $link-color
+          color: #fff
+
+.size-toggle
+  font-size: 10px
+  position: absolute
+  top: 5px
+  left: 5px
+  li
+    float: left
+    margin: 5px
+    padding: 5px
+
+    &.active
+      background: $link-color
+      a
+        color: #fff
+
+#index #posts
+  .post-notes-count
+    display: none
+  .post
+    margin: 5px 
+    float: left
+
+    .photo-container
+      height: 250px
+      width: 300px
+      overflow: hidden
+      a
+        display: block
+        p
+          width: 300px
+      img
+        width: 100%
+    &.small .photo-container
+      width: 150px
+      height: 125px
+      a
+        p
+          width: 150px
+
+#permalink #posts
+  width: 600px
+  margin: 20px auto
+
+  .photo
+    .photo-container
+      img
+        display: block
+        margin: 0 auto
+  .post-notes-count
+    padding: 5px
+    font-size: 14px
+  .post-notes
+    font-size: 12px
+    ol
+      list-style-type: none
+    li
+      margin: 5px 0
+
+      blockquote
+        margin-left: 20px
+        padding-left: 20px
+        border-left: 5px solid $link-color
+        a
+          color: black
+    

@@ -1,0 +1,80 @@
+{block:tumblrThemr}
+  <link rel="stylesheet" href="themes/gif/style/gif.css" type="text/css" media="screen"/>
+  <style type="text/css">{CustomCSS}</style>
+
+
+
+ <html>
+    <head>
+        <title>{Title} </title>
+        <link rel="shortcut icon" href="{Favicon}">
+        <link rel="alternate" type="application/rss+xml" href="{RSS}">
+        {block:Description}
+            <meta name="description" content="{MetaDescription}" />
+        {/block:Description}
+
+    </head>
+    <body {block:PermalinkPage} id="permalink" {/block:PermalinkPage} {block:IndexPage} id="permalink" {/block:IndexPage}>
+      <div class="header">
+        <h1> <a class="title-link" href="/">{Title} </a> {block:SubmissionsEnabled}  <a href="/submit"> {SubmitLabel} </a>{/block:SubmissionsEnabled}  {block:AskEnabled} <a href="/ask"> {AskLabel} </a>{/block:AskEnabled}</h1>
+
+        {block:Description}
+            <p id="description">{Description}</p>
+        {/block:Description}
+
+      </div>
+      {block:IndexPage}
+        <div class="sort-container">
+          <ul class="sort js-sort" id='posts-sorter'>
+            <li class="active" > <a href="#" data-filter="*"> Show All </a> </li>
+            <li> <a href="#" data-filter=".cats"> Cats </a> </li>
+            <li> <a href="#" data-filter=".fail"> Fail </a> </li>
+            <li> <a href="#" data-filter=".happy"> Happy </a> </li>
+            <li> <a href="#" data-filter=".sad"> Sad </a> </li>
+            <li> <a href="#" data-filter=".animals"> Animals </a> </li>
+            <li> <a href="#" data-filter=".art"> Art </a> </li>
+            <li> <a href="#" data-filter=".groupcommerce"> GC </a> </li>
+          </ul>
+        </div>
+      {/block:IndexPage}
+
+        <ul id="posts">
+            {block:Posts}
+                <li class="post {block:HasTags}{block:Tags} {URLSafeTag}{/block:Tags}{/block:HasTags}">
+                
+                  {block:Photo}
+                      <div class="photo">
+
+                          <div class="photo-container"><a href="{Permalink}"><img src="{PhotoURL-500}" alt="{PhotoAlt}"/></a></div>
+
+                          
+                      </div>
+                  {/block:Photo}
+                  <div class="post-notes-count">
+                    {block:NoteCount} {NoteCountWithLabel}{/block:NoteCount}
+                  </div>
+                  <div class = "post-notes">
+                    {block:PostNotes} {PostNotes-16} {/block:PostNotes}
+                  </div>
+                  
+                </li>
+            {/block:Posts}
+        </ul>
+       
+        <p id="footer">
+            {block:PreviousPage}
+                <a href="{PreviousPage}">&#171; Previous</a>
+            {/block:PreviousPage}
+
+            {block:NextPage}
+                <a href="{NextPage}">Next &#187;</a>
+            {/block:NextPage}
+        </p>
+
+    
+    </body>
+</html>
+
+
+
+{/block:tumblrThemr}

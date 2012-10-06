@@ -1,0 +1,294 @@
+/* line 1, ../sass/reset.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 12, ../sass/reset.sass */
+*:focus {
+  outline: 0;
+}
+
+/* line 15, ../sass/reset.sass */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 20, ../sass/reset.sass */
+ul {
+  list-style: none;
+}
+
+/* line 23, ../sass/reset.sass */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 27, ../sass/reset.sass */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 32, ../sass/reset.sass */
+blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 36, ../sass/reset.sass */
+q:before, q:after {
+  content: "";
+}
+
+/* line 39, ../sass/reset.sass */
+blockquote, q {
+  quotes: "" "";
+}
+
+/*** Isotope Filtering *** */
+/* line 3, ../sass/_isotope.sass */
+.isotope-item {
+  z-index: 2;
+}
+
+/* line 6, ../sass/_isotope.sass */
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/*** Isotope CSS3 transitions *** */
+/* line 12, ../sass/_isotope.sass */
+.isotope {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+/* line 18, ../sass/_isotope.sass */
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: top, left, opacity;
+  transition-property: transform, opacity;
+}
+/* line 34, ../sass/_isotope.sass */
+.isotope.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* line 40, ../sass/_isotope.sass */
+.isotope.no-transition .isotope-item {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* line 46, ../sass/_isotope.sass */
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+/*** disabling Isotope CSS3 transitions *** */
+/* line 9, ../sass/gif.sass */
+body {
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+/* line 11, ../sass/gif.sass */
+h1 {
+  padding: 10px 0;
+}
+/* line 14, ../sass/gif.sass */
+h1 a {
+  font-size: 14px;
+  margin-left: 10px;
+}
+/* line 19, ../sass/gif.sass */
+h1 a.title-link {
+  color: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* line 24, ../sass/gif.sass */
+a {
+  color: #9900ff;
+  text-decoration: none;
+}
+/* line 28, ../sass/gif.sass */
+a:hover {
+  color: #5c0099;
+}
+
+/* line 30, ../sass/gif.sass */
+.header {
+  text-align: center;
+}
+
+/* line 33, ../sass/gif.sass */
+.navigation {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* line 37, ../sass/gif.sass */
+.sort-container {
+  overflow: hidden;
+  *zoom: 1;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+/* line 45, ../sass/gif.sass */
+.sort-container ul.sort {
+  width: 500px;
+  margin: 0 auto;
+}
+/* line 48, ../sass/gif.sass */
+.sort-container ul.sort li {
+  float: left;
+  margin: 0 5px;
+}
+/* line 51, ../sass/gif.sass */
+.sort-container ul.sort li a {
+  padding: 5px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 59, ../sass/gif.sass */
+.sort-container ul.sort li.active a {
+  background: #9900ff;
+  color: white;
+}
+
+/* line 63, ../sass/gif.sass */
+.size-toggle {
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+/* line 68, ../sass/gif.sass */
+.size-toggle li {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
+/* line 73, ../sass/gif.sass */
+.size-toggle li.active {
+  background: #9900ff;
+}
+/* line 75, ../sass/gif.sass */
+.size-toggle li.active a {
+  color: white;
+}
+
+/* line 79, ../sass/gif.sass */
+#index #posts .post-notes-count {
+  display: none;
+}
+/* line 81, ../sass/gif.sass */
+#index #posts .post {
+  margin: 5px;
+  float: left;
+}
+/* line 85, ../sass/gif.sass */
+#index #posts .post .photo-container {
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+}
+/* line 89, ../sass/gif.sass */
+#index #posts .post .photo-container a {
+  display: block;
+}
+/* line 91, ../sass/gif.sass */
+#index #posts .post .photo-container a p {
+  width: 300px;
+}
+/* line 93, ../sass/gif.sass */
+#index #posts .post .photo-container img {
+  width: 100%;
+}
+/* line 95, ../sass/gif.sass */
+#index #posts .post.small .photo-container {
+  width: 150px;
+  height: 125px;
+}
+/* line 99, ../sass/gif.sass */
+#index #posts .post.small .photo-container a p {
+  width: 150px;
+}
+
+/* line 102, ../sass/gif.sass */
+#permalink #posts {
+  width: 600px;
+  margin: 20px auto;
+}
+/* line 108, ../sass/gif.sass */
+#permalink #posts .photo .photo-container img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 111, ../sass/gif.sass */
+#permalink #posts .post-notes-count {
+  padding: 5px;
+  font-size: 14px;
+}
+/* line 114, ../sass/gif.sass */
+#permalink #posts .post-notes {
+  font-size: 12px;
+}
+/* line 116, ../sass/gif.sass */
+#permalink #posts .post-notes ol {
+  list-style-type: none;
+}
+/* line 118, ../sass/gif.sass */
+#permalink #posts .post-notes li {
+  margin: 5px 0;
+}
+/* line 121, ../sass/gif.sass */
+#permalink #posts .post-notes li blockquote {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 5px solid #9900ff;
+}
+/* line 125, ../sass/gif.sass */
+#permalink #posts .post-notes li blockquote a {
+  color: black;
+}
