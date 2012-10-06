@@ -1,0 +1,249 @@
+@import base
+@import font
+
+// Colors
+$green: #d6cd05
+$brown: #5d200c
+$pink: #db2d56
+$tan: #efeae1
+$dark_gray: #5f5f5e
+
+//fonts
+=lobster
+  font-family: 'LobsterTwoRegular'
+=lobsterbold
+  font-family: 'LobsterTwoBold'
+
+.pull-right
+  float: right
+
+.pull-left
+  float: left
+
+.clear
+  clear: both
+  height: 1px
+
+a
+  text-decoration: none
+  color: $pink
+
+  &:hover
+    text-decoration: underline
+
+  img
+    border: none
+
+body
+  background: #efeae1
+  background: #efeae1 url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/floral_top.png') top left fixed no-repeat
+  margin: 0
+  padding: 0
+
+
+  #bottom_foral
+    position: fixed
+    bottom: 0
+    right: 0
+    z-index: 0
+    width: 187px
+    height: 298px
+    background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/floral_bottom.png') no-repeat top left
+
+.block
+  color: #fff
+  height: 100px
+  width: 880px
+  border: 5px solid #fff
+  margin: 0 auto
+
+/* Header */
+#header
+  background: $green
+
+  a
+    color: #fff
+    text-align: center
+
+    h1
+      +lobsterbold
+      font-size: 36px
+      margin-bottom: 20px
+
+    p
+      margin:  0 20px
+      font-size: 18px
+
+#content
+  width:  880px
+  border: 5px solid #fff
+  border-top: 0px solid #fff
+  margin: 0 auto
+
+  /* Navigation */
+  #navigation
+
+
+    #navigation_ribbon_left
+      background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/ribbon_left.png')
+      width: 94px
+      height: 75px
+      float: left
+      margin-left: -94px
+      margin-top: -2px
+
+    #navigation_ribbon_right
+      background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/ribbon_right.png')
+      width: 94px
+      height: 66px
+      float: right
+      margin-right: -94px
+      margin-top: -50px
+
+    ul
+      background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/bg_navigation.png') repeat-x
+      height: 43px
+      padding-top: 10px
+
+      li
+        float: left
+        margin: 0 50px
+
+        a
+          +lobsterbold
+          color: #fff
+          font-size: 30px
+
+          &.current
+            color: $green
+
+          &:hover
+            color: $green
+            text-decoration: none
+
+  /*Posts*/
+  .post
+    color: #fff
+    width: 760px
+    border: 3px solid #fff
+    margin: 30px auto
+    color: $brown
+    position: relative
+
+    blockquote
+      margin-left: 10px
+      padding-left: 10px
+      border-left: 5px solid 
+
+    .post_butterfly
+      position: absolute
+      top: -30px
+      right: -20px
+      width: 88px
+      height: 79px
+      background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/icon_butterfly.png') no-repeat
+
+    >.post_title
+      height: 48px
+      width: 100%
+      background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/bg_ribbon_green.png') repeat-x
+
+      h2
+        color: $dark_gray
+        font-size: 20px
+        padding: 15px 0 0 15px
+
+      a:hover
+        text-decoration: none
+        color: darken($dark_gray, 20%)
+
+    >.post_body
+      margin: 20px 15px
+      line-height: 18px
+
+      p
+        margin-bottom: 10px
+      .post_media
+        width: 500px
+        margin: 0 auto
+
+      .post_caption
+        width: 500px
+        margin: 20px auto 0 auto
+
+      .post_chat
+        line-height: 22px
+        .line
+          strong
+            font-weight: bold
+
+      .post_question
+        background: #fff
+        padding: 10px
+
+      .post_asker
+        margin-left: 20px
+        margin-top: 10px
+        a
+          margin-left: 5px
+
+      .post_answer
+        margin-left: 20px
+        margin-top: 10px
+
+    .post_footer
+      min-height: 20px
+      padding: 10px 15px
+
+      .post_reblog
+        font-size: 12px
+        margin-left: 10px
+
+    .post_date
+      margin-top: 20px
+      margin-left: 10px
+      font-size: 14px
+      a
+        color: #c5b2ac
+
+        &:hover
+          text-decoration: none
+
+    .post_notes
+      padding-left: 25px
+      padding-top: 3px
+      padding-bottom: 2px
+      background: url('http://paigeponzeka.github.com/ButterflyTheme/themes/butterfly/images/icon_heart.png') no-repeat top left
+      float: right
+
+    .post_tags
+      float: left
+      width: 600px
+      a
+        margin: 0 5px
+        color: $pink
+        text-decoration: none
+        font-size: 14px
+
+        &:hover
+          text-decoration: underline
+
+.pagination
+  padding: 10px 0
+  width: 680px
+  margin: 0 auto
+  clear: both
+  overflow: hidden
+
+  a 
+    font-size: 20px
+/*Footer*/
+#footer
+  background: $brown
+  text-align: center
+  font-size: 18px
+  border-top: 1px solid #fff
+  a
+    color: white
+  p
+    margin-top: 30px
