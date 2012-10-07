@@ -40,7 +40,7 @@
 
     <style type="text/css">{CustomCSS}</style>
 </head>
-<body>
+<body class="night">
     <div id="experiment">
 		<div id="background"></div>	
 

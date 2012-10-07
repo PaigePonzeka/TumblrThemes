@@ -1,7 +1,6 @@
 @import "compass/reset"
 @import "compass/utilities"
 @import "compass/css3/"
-@import 'experiment'
 @import 'font'
 
 
@@ -10,7 +9,9 @@
 // 
 //
 
+/* ---------- Night ----------- */
 $dark-blue: #04040C
+$dark-blue-opac: rgba(4, 4, 12,.90)
 $blue: #0f0abc
 $yellow: #faf712
 $pale-blue: #6c7fff
@@ -19,15 +20,66 @@ $orange: #dd6700
 $black: #030303
 $gray: #ccc
 
-$color-link: $yellow
+
+$color-link-night: $yellow
+$color-bg-nav-night: $yellow
+$color-fg-nav-night: $black
+$color-bg-body-night-fallback: $dark-blue
+$color-bg-body-night: $dark-blue-opac
+
+/* ------- Default */
+//$color-link-default*/
+
 $color-border: $gray
 $color-bg-post-title: $pale-blue
 
+
+/*
+ * Mixins
+ * -------------------------
+ */
 =title-font  
 	font-family: 'ostrich_sansbold'
 
 =body-font
 	font-family: Arial, sans-serif
+
+=link-color($color)
+	color: $color
+	&:hover
+		color: darken($color,10%)
+	&:visited
+		background-color: lighten($color,10%)
+
+=bg-link-color($bgcolor, $fgcolor)
+	background-color: $bgcolor
+	color: $fgcolor
+	+background-image(linear-gradient(lighten($bgcolor,10%), $bgcolor, darken($bgcolor,10%)))
+	&:hover
+		+background-image(linear-gradient(darken($bgcolor,5%), darken($bgcolor,10%), darken($bgcolor,20%)))
+
+
+
+
+/*
+ * Theming
+ * -------------------------
+ */
+
+body
+
+	/* ----------- Night Theme ------------ */
+	&.night
+
+		a
+			+link-color($color-link-night)
+
+		#navigation ul li a
+			+bg-link-color($color-bg-nav-night, $color-fg-nav-night)
+
+		#content
+			background: $color-bg-body-night-fallback
+			background: $color-bg-body-night
 
 
 /*
@@ -35,11 +87,9 @@ $color-bg-post-title: $pale-blue
  * -------------------------
  */
 a
-	color: $color-link
+	
 	text-decoration: none
 
-	&:hover
-		color: darken($yellow, 10%)
 
 h1
 	font-size: 50px	
@@ -51,6 +101,7 @@ h2
 
 p
 	margin: 10px 0
+	font-size: 14px
 
 
 /*
@@ -64,11 +115,12 @@ body
 
 #content
 	margin: 3em 10em
-	background-color: #333
-	opacity: 0.95
+	
+	position: absolute
 	color: #ccc
 	padding: 3em
 	border: 2px solid #666
+	z-index: 9999
 
 
 /*
@@ -83,13 +135,9 @@ body
 			a
 				padding: 5px
 				+border-radius(5px)
-				background: $color-link
-				border: 3px solid $color-border
 				display: block
 				color: black
 
-				&:hover
-					background: darken($yellow, 10%)
 
 
 /*
@@ -112,3 +160,31 @@ body
 	.post_body
 
 		padding: 10px
+
+
+
+/*
+ * Parallax
+ * -------------------------
+ */
+#background 
+	background: url('../images/foreground.png') 5% 5%, url('../images/midground.png') 50% 50%, url('../images/background.png') 90% 110%
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	position: fixed
+	height: 100%
+	-webkit-transition: left 300s linear
+	-moz-transition: left 300s linear
+	-o-transition: left 300s linear
+	-ms-transition: left 300s linear
+	transition: left 300s linear
+
+
+#experiment:target #background 
+	left: -5000px
+
+
+#experiment:hover #background 
+	left: -9999px
