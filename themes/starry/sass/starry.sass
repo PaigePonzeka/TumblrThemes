@@ -1,0 +1,114 @@
+@import "compass/reset"
+@import "compass/utilities"
+@import "compass/css3/"
+@import 'experiment'
+@import 'font'
+
+
+//
+// Colors
+// 
+//
+
+$dark-blue: #04040C
+$blue: #0f0abc
+$yellow: #faf712
+$pale-blue: #6c7fff
+$green: #81d679
+$orange: #dd6700
+$black: #030303
+$gray: #ccc
+
+$color-link: $yellow
+$color-border: $gray
+$color-bg-post-title: $pale-blue
+
+=title-font  
+	font-family: 'ostrich_sansbold'
+
+=body-font
+	font-family: Arial, sans-serif
+
+
+/*
+ * Default type
+ * -------------------------
+ */
+a
+	color: $color-link
+	text-decoration: none
+
+	&:hover
+		color: darken($yellow, 10%)
+
+h1
+	font-size: 50px	
+	margin-bottom: 20px
+	+title-font 
+
+h2
+	font-size: 20px
+
+p
+	margin: 10px 0
+
+
+/*
+ * Body
+ * -------------------------
+ */
+body
+	+body-font
+	font-size: 14px
+	line-height: 18px
+
+#content
+	margin: 3em 10em
+	background-color: #333
+	opacity: 0.95
+	color: #ccc
+	padding: 3em
+	border: 2px solid #666
+
+
+/*
+ * Navigation
+ * -------------------------
+ */
+#navigation
+	ul
+		@include horizontal-list
+
+		li
+			a
+				padding: 5px
+				+border-radius(5px)
+				background: $color-link
+				border: 3px solid $color-border
+				display: block
+				color: black
+
+				&:hover
+					background: darken($yellow, 10%)
+
+
+/*
+ * Navigation
+ * -------------------------
+ */
+.post
+	margin: 20px 0
+	
+	.post_title
+		padding: 10px 0
+		background: $color-bg-post-title
+		+border-top-radius(10px)
+
+		h2
+			margin-left: 20px
+
+			a
+				color: white
+	.post_body
+
+		padding: 10px

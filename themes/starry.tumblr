@@ -34,7 +34,7 @@
     <link rel="shortcut icon" href="{Favicon}" />
     <link rel="alternate" type="application/rss+xml" href="{RSS}" />
     <!--<link rel="stylesheet" href="themes/butterfly/style/butterfly.css" type="text/css" media="screen"/>-->
-    <link rel="stylesheet" href="themes/starry/style/experiment.css">	
+    <link rel="stylesheet" href="themes/starry/style/starry.css">	
 
     
 
